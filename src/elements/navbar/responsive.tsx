@@ -1,15 +1,13 @@
 import Link from 'next/link'
-import { Menu } from 'lucide-react'
+import { GithubIcon, Menu } from 'lucide-react'
 
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
-import { DialogContact } from '../dialogs/dialog-contact'
 
 export function ResponsiveMenu() {
   return (
@@ -17,9 +15,7 @@ export function ResponsiveMenu() {
       <DropdownMenuTrigger>
         <Menu />
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="mr-6 mt-6 w-80 max-sm:mr-0">
-        <DropdownMenuLabel>Bem-vindo</DropdownMenuLabel>
-        <DropdownMenuSeparator />
+      <DropdownMenuContent className="mr-6 mt-6 w-80 max-sm:mr-6">
         <DropdownMenuItem>
           <Link href="/">Home</Link>
         </DropdownMenuItem>
@@ -37,12 +33,26 @@ export function ResponsiveMenu() {
         </DropdownMenuItem>
 
         <DropdownMenuItem>
-          <Link href="/blog">Blog</Link>
+          <Link href="/posts">Blog</Link>
         </DropdownMenuItem>
 
-        <span>
-          <DialogContact />
-        </span>
+        <DropdownMenuSeparator />
+        <DropdownMenuItem>
+          <ul className="flex items-center gap-4">
+            <li>
+              <GithubIcon size={18} />
+            </li>
+            <li>
+              <GithubIcon size={18} />
+            </li>
+            <li>
+              <GithubIcon size={18} />
+            </li>
+            <li>
+              <GithubIcon size={18} />
+            </li>
+          </ul>
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   )
