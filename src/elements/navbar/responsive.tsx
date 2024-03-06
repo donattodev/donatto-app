@@ -17,7 +17,7 @@ export function ResponsiveMenu() {
       <DropdownMenuTrigger>
         <Menu />
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="mr-6 mt-6 w-96">
+      <DropdownMenuContent className="mr-6 mt-6 w-80 max-sm:mr-0">
         <DropdownMenuLabel>Bem-vindo</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
