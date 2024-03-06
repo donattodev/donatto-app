@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { IconLogo } from '@/components/logo/icon-logo'
 import { DialogContact } from '@/elements/dialogs/dialog-contact'
+import { ResponsiveMenu } from './responsive'
 
 export function Nav() {
   return (
@@ -9,7 +10,7 @@ export function Nav() {
         <IconLogo className="size-10" />
       </Link>
 
-      <ul className="flex items-center gap-8 text-sm font-light  uppercase tracking-widest text-zinc-400 max-sm:hidden ">
+      <ul className="flex items-center gap-8 text-sm font-light  uppercase tracking-widest text-zinc-400 max-lg:hidden ">
         <li>
           <Link href="/sobre" className="transition-all hover:text-zinc-100">
             Sobre
@@ -39,6 +40,12 @@ export function Nav() {
 
         <li>
           <DialogContact />
+        </li>
+      </ul>
+
+      <ul className="lg:hidden">
+        <li className="text-primary">
+          <ResponsiveMenu />
         </li>
       </ul>
     </nav>
