@@ -3,11 +3,18 @@ import Image from 'next/image'
 import share from '../../public/share.png'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
+import { HtmlIcon } from '@/components/icons/html'
+import { CssIcon } from '@/components/icons/css'
+import { JsIcon } from '@/components/icons/js'
+import { MailIcon } from '@/components/icons/mail'
+import { InstagramIcon } from '@/components/icons/instagram'
+import { GithubIcon } from '@/components/icons/github'
+import { BehanceIcon } from '@/components/icons/behance'
 
 export default function Home() {
   return (
     <main className="px-80 max-lg:px-16 max-sm:px-6">
-      <header className="my-72">
+      <header className="mb-64 mt-72">
         <hgroup className="flex flex-col gap-4">
           <h1 className="font-title text-5xl font-bold">Felippe Donatto</h1>
 
@@ -22,6 +29,20 @@ export default function Home() {
               Transformando <span className="text-primary50">sonhos</span> em
               aplicações!
             </p>
+          </div>
+
+          <div>
+            <ul className="flex items-center gap-4">
+              <li>
+                <HtmlIcon className="w-6" fill="#71717a" />
+              </li>
+              <li>
+                <CssIcon className="w-6" fill="#71717a" />
+              </li>
+              <li>
+                <JsIcon className="w-6" fill="#71717a" />
+              </li>
+            </ul>
           </div>
         </hgroup>
       </header>
@@ -103,7 +124,8 @@ export default function Home() {
               target="_blank"
               className="transition-all hover:text-primary50"
             >
-              Email
+              <MailIcon className="w-5 sm:hidden" fill="#71717a" />
+              <span className="max-sm:hidden">E-mail</span>
             </Link>
           </li>
           <li>
@@ -112,7 +134,8 @@ export default function Home() {
               target="_blank"
               className="transition-all hover:text-primary50"
             >
-              Behance
+              <BehanceIcon className="w-5 sm:hidden" fill="#71717a" />
+              <span className="max-sm:hidden">Behance</span>
             </Link>
           </li>
           <li>
@@ -121,7 +144,8 @@ export default function Home() {
               target="_blank"
               className="transition-all hover:text-primary50"
             >
-              Github
+              <GithubIcon className="w-5 sm:hidden" fill="#71717a" />
+              <span className="max-sm:hidden">Github</span>
             </Link>
           </li>
           <li>
@@ -130,7 +154,8 @@ export default function Home() {
               target="_blank"
               className="transition-all hover:text-primary50"
             >
-              Instagram
+              <InstagramIcon className="w-5 sm:hidden" fill="#71717a" />
+              <span className="max-sm:hidden">Instagram</span>
             </Link>
           </li>
         </ul>

@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { GithubIcon, Menu } from 'lucide-react'
+import { Menu } from 'lucide-react'
 
 import {
   DropdownMenu,
@@ -8,6 +8,9 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
+import { GithubIcon } from '@/components/icons/github'
+import { BehanceIcon } from '@/components/icons/behance'
+import { InstagramIcon } from '@/components/icons/instagram'
 
 export function ResponsiveMenu() {
   return (
@@ -40,16 +43,13 @@ export function ResponsiveMenu() {
         <DropdownMenuItem>
           <ul className="flex items-center gap-4">
             <li>
-              <GithubIcon size={18} />
+              <GithubIcon className="w-5" fill="#71717a" />
             </li>
             <li>
-              <GithubIcon size={18} />
+              <BehanceIcon className="w-5" fill="#71717a" />
             </li>
             <li>
-              <GithubIcon size={18} />
-            </li>
-            <li>
-              <GithubIcon size={18} />
+              <InstagramIcon className="w-5" fill="#71717a" />
             </li>
           </ul>
         </DropdownMenuItem>
