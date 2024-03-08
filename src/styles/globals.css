@@ -95,3 +95,13 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.flash{
+  animation: flash .7s linear;
+}
+
+@keyframes flash {
+  from{
+    opacity: 0;
+  }
+}

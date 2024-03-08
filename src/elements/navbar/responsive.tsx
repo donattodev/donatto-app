@@ -32,7 +32,7 @@ export function ResponsiveMenu() {
         </DropdownMenuItem>
 
         <DropdownMenuItem>
-          <Link href="/">Artigos</Link>
+          <Link href="/list-artigos">Artigos</Link>
         </DropdownMenuItem>
 
         <DropdownMenuItem>

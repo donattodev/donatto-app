@@ -27,7 +27,10 @@ export function Nav() {
         </li>
 
         <li>
-          <Link href="/" className="transition-all hover:text-zinc-100">
+          <Link
+            href="/list-artigos"
+            className="transition-all hover:text-zinc-100"
+          >
             Artigos
           </Link>
         </li>

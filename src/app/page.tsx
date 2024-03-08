@@ -10,6 +10,7 @@ import { MailIcon } from '@/components/icons/mail'
 import { InstagramIcon } from '@/components/icons/instagram'
 import { GithubIcon } from '@/components/icons/github'
 import { BehanceIcon } from '@/components/icons/behance'
+import { NextIcon } from '@/components/icons/next'
 
 export default function Home() {
   return (
@@ -41,6 +42,9 @@ export default function Home() {
               </li>
               <li>
                 <JsIcon className="w-6" fill="#71717a" />
+              </li>
+              <li>
+                <NextIcon className="w-6" fill="#71717a" />
               </li>
             </ul>
           </div>
@@ -97,12 +101,12 @@ export default function Home() {
         </div>
 
         <Button asChild variant={'outline'}>
-          <Link href="/">ver mais</Link>
+          <Link href="/list-projetos">ver mais</Link>
         </Button>
       </section>
 
       <footer className="absolute left-0 flex w-full items-center justify-between bg-zinc-900 px-64 py-10 max-lg:px-16 max-sm:flex-col max-sm:gap-6 max-sm:px-6">
-        <div className="flex w-full max-w-xs flex-col gap-1">
+        <div className="flex w-full max-w-[440px] flex-col gap-1">
           <h2 className="mb-2 text-2xl font-bold uppercase text-primary">
             Obrigado pela visita
           </h2>
@@ -111,7 +115,7 @@ export default function Home() {
           </span>
           <span className="text-sm font-light text-zinc-200">
             Programação por amor! &copy;{' '}
-            <span className="font-bold uppercase text-primary50">
+            <span className="font-black uppercase text-primary">
               Felippe Donatto
             </span>
           </span>

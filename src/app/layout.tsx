@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${roboto.variable} ${bai.variable} font-sans tracking-wider antialiased`}
+        className={`${roboto.variable} ${bai.variable} flash font-sans tracking-wider antialiased`}
       >
         <ThemeProvider
           attribute="class"
