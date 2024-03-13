@@ -21,7 +21,7 @@ import {
 export function DialogContact() {
   return (
     <Dialog>
-      <DialogTrigger className="text-sm font-light uppercase  tracking-widest text-zinc-400">
+      <DialogTrigger className="text-sm font-semibold uppercase leading-5 text-zinc-400">
         <span className="transition-all hover:text-zinc-100">Contato</span>
       </DialogTrigger>
       <DialogContent className="max-w-md max-sm:px-6">
