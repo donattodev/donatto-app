@@ -26,8 +26,11 @@ export function ProjectDestaqueHome() {
         <div className="flex flex-col gap-4">
           <ul className="flex items-center gap-3">
             <li>
-              <Link href="" target="_blank">
-                <GithubIcon className="w-5" fill="#fff" />
+              <Link
+                href="https://github.com/donattodev/music-relax"
+                target="_blank"
+              >
+                <GithubIcon className="w-5" fill="#71717a" />
               </Link>
             </li>
             <li>
@@ -35,17 +38,22 @@ export function ProjectDestaqueHome() {
                 href="https://www.youtube.com/channel/UC_Z85abD4Ka1FqtObzaiBbQ"
                 target="_blank"
               >
-                <YoutubIcon className="w-5" fill="#fff" />
+                <YoutubIcon className="w-5" fill="#71717a" />
               </Link>
             </li>
             <li>
-              <Link href="" target="_blank">
-                <SpotifyIcon className="w-5" fill="#fff" />
+              <Link
+                href="https://open.spotify.com/intl-pt/album/17VsdbGONVYMYrIxOemkP0"
+                target="_blank"
+              >
+                <SpotifyIcon className="w-5" fill="#71717a" />
               </Link>
             </li>
             <li>
               <Button asChild className="w-full">
-                <Link href="/">Ver projeto</Link>
+                <Link href="https://music-relax.vercel.app/" target="_blank">
+                  Ver projeto
+                </Link>
               </Button>
             </li>
           </ul>

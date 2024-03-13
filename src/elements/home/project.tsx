@@ -10,20 +10,22 @@ export function ProjectHome() {
   return (
     <section className="flex w-full flex-col items-center gap-12">
       <div className="flex flex-wrap items-center justify-center gap-6 max-lg:gap-2 max-lg:px-4">
-        <div className="flex max-w-[364px] flex-col gap-4 max-lg:max-w-xs">
-          <Image
-            src={music}
-            alt=""
-            className="rounded-md border-4 border-zinc-800/40"
-          />
+        <Link href="https://music-relax.vercel.app/" target="_blank">
+          <div className="flex max-w-[364px] flex-col gap-4 max-lg:max-w-xs">
+            <Image
+              src={music}
+              alt=""
+              className="rounded-md border-4 border-zinc-800/40"
+            />
 
-          <div>
-            <h2 className="text-2xl font-bold">Music Relax</h2>
-            <span className="mb-4 flex text-xs font-bold uppercase text-primary">
-              Next Js, Shadcn Ui
-            </span>
+            <div>
+              <h2 className="text-2xl font-bold">Music Relax</h2>
+              <span className="mb-4 flex text-xs font-bold uppercase text-primary">
+                Next Js, Shadcn Ui
+              </span>
+            </div>
           </div>
-        </div>
+        </Link>
 
         <div className="flex max-w-[364px] flex-col gap-4 max-lg:max-w-xs">
           <Image
