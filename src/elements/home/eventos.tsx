@@ -1,5 +1,8 @@
-import Link from 'next/link'
+'use client'
+
 import Image from 'next/image'
+import { toast } from 'sonner'
+import { Toaster } from '@/components/ui/sonner'
 import { Button } from '@/components/ui/button'
 
 import reprogramando from '../../../public/reprogramando.png'
@@ -24,23 +27,36 @@ export function EventosHome() {
             </hgroup>
             <p className="mb-2 text-sm font-light">
               O primeiro site que eu fiz foi o Google Glass, desenvolvido no
-              curso de HTML e CSS do CURSO EM VÍDEO, então resolvir
-              reprograma-lo e gravar isso em uma aula gratuita pra vocês.
+              curso de{' '}
+              <span className="font-bold text-primary">HTML e CSS</span> do{' '}
+              <span className="font-bold text-primary">CURSO EM VÍDEO</span>,
+              então resolvir reprograma-lo e gravar isso em uma aula gratuita
+              pra vocês.
             </p>
             <p className="mb-2 text-sm font-light">
               Claro que usei novas metodologias e maneiras de se fazer, porem
-              todos os ensinamentos do Professor Gustavo Guanabara são validos
-              até hoje.
+              todos os ensinamentos do{' '}
+              <span className="font-bold text-primary">
+                {' '}
+                Professor Gustavo Guanabara{' '}
+              </span>
+              são validos até hoje.
             </p>
           </div>
 
-          <Button asChild>
-            <Link href="/" className="self-start">
-              Ver evento
-            </Link>
+          <Button
+            className="self-start"
+            onClick={() =>
+              toast('Inscrições fechadas', {
+                description: 'As incrições serão abertas no dia 25/03/2024',
+              })
+            }
+          >
+            Ir para evento
           </Button>
         </div>
       </div>
+      <Toaster />
     </section>
   )
 }

@@ -61,7 +61,17 @@ export function ProjectDestaqueHome() {
       </div>
 
       <div className="w-full">
-        <Image src={music} alt="" />
+        <Link href="https://music-relax.vercel.app/" target="_blank">
+          <figure className="relative">
+            <Image src={music} alt="" className="rounded-xl" />
+            <figcaption className="absolute top-0 h-full w-full cursor-pointer rounded-xl bg-black/40 p-6 opacity-0 transition-all hover:opacity-100">
+              <h2 className="font-bold uppercase text-primary">Music Relax</h2>
+              <h2 className="text-sm font-bold uppercase">
+                Criado por Donatto Dev
+              </h2>
+            </figcaption>
+          </figure>
+        </Link>
       </div>
     </section>
   )

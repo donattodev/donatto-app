@@ -10,10 +10,7 @@ export default function ListaDeProjetos() {
         </h2>
 
         <div className="flex flex-col gap-4">
-          <Link
-            href="https://docs.donattodev.com.br/docs/music-relax-docs"
-            target="_blank"
-          >
+          <Link href="https://music-relax.vercel.app/" target="_blank">
             <div className="flex cursor-pointer flex-col gap-4 rounded-md border p-4 transition-all hover:bg-zinc-900">
               <div className="flex items-center gap-3">
                 <Music />
@@ -33,7 +30,7 @@ export default function ListaDeProjetos() {
 
           <li className="pl-2 text-zinc-400 ">
             <span className="hover:text-primary50 transition-all">
-              <Link href="/" target="_blank">
+              <Link href="https://music-relax.vercel.app/" target="_blank">
                 Music Relax
               </Link>
             </span>

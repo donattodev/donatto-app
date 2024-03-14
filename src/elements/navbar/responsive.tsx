@@ -1,6 +1,10 @@
 import Link from 'next/link'
 import { Menu } from 'lucide-react'
 
+import { GithubIcon } from '@/components/icons/github'
+import { BehanceIcon } from '@/components/icons/behance'
+import { InstagramIcon } from '@/components/icons/instagram'
+
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -8,9 +12,6 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
-import { GithubIcon } from '@/components/icons/github'
-import { BehanceIcon } from '@/components/icons/behance'
-import { InstagramIcon } from '@/components/icons/instagram'
 
 export function ResponsiveMenu() {
   return (
@@ -35,21 +36,29 @@ export function ResponsiveMenu() {
           <Link href="/list-artigos">Artigos</Link>
         </DropdownMenuItem>
 
-        <DropdownMenuItem>
-          <Link href="/posts">Blog</Link>
-        </DropdownMenuItem>
-
         <DropdownMenuSeparator />
         <DropdownMenuItem>
           <ul className="flex items-center gap-4">
             <li>
-              <GithubIcon className="w-5" fill="#71717a" />
+              <Link href="https://github.com/felippedonatto" target="_blank">
+                <GithubIcon className="w-5" fill="#71717a" />
+              </Link>
             </li>
             <li>
-              <BehanceIcon className="w-5" fill="#71717a" />
+              <Link
+                href="https://www.behance.net/felippedon8296"
+                target="_blank"
+              >
+                <BehanceIcon className="w-5" fill="#71717a" />
+              </Link>
             </li>
             <li>
-              <InstagramIcon className="w-5" fill="#71717a" />
+              <Link
+                href="https://www.instagram.com/donattodev_"
+                target="_blank"
+              >
+                <InstagramIcon className="w-5" fill="#71717a" />
+              </Link>
             </li>
           </ul>
         </DropdownMenuItem>
