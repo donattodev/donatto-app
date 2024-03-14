@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import { ReactNode } from 'react'
 import type { Metadata } from 'next'
 import { Nav } from '@/elements/navbar/nav'
+import { Analytics } from '@vercel/analytics/react'
 import { ThemeProvider } from '@/components/theme-provider'
 import { Roboto as FontSans, Bai_Jamjuree as FontTitle } from 'next/font/google'
 
@@ -39,6 +40,7 @@ export default function RootLayout({
         >
           <Nav />
           {children}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
