@@ -32,7 +32,7 @@ export default function ListaDeProjetos() {
           <span className="font-title font-black">Open Source</span>
 
           <li className="pl-2 text-zinc-400 ">
-            <span className="transition-all hover:text-primary50">
+            <span className="hover:text-primary50 transition-all">
               <Link href="/" target="_blank">
                 Music Relax
               </Link>
@@ -43,7 +43,7 @@ export default function ListaDeProjetos() {
                 <Link
                   href="https://docs.donattodev.com.br/docs/music-relax-docs"
                   target="_blank"
-                  className="text-[10px] uppercase text-emerald-100 transition-all  hover:text-primary50"
+                  className="hover:text-primary50 text-[10px] uppercase text-emerald-100  transition-all"
                 >
                   Docs
                 </Link>
@@ -54,7 +54,7 @@ export default function ListaDeProjetos() {
           <span className="font-title font-black">Private</span>
 
           <li className="pl-2 text-zinc-400 ">
-            <span className="transition-all hover:text-primary50">
+            <span className="hover:text-primary50 transition-all">
               <Link
                 href="https://perolas-de-cristo.vercel.app/"
                 target="_blank"
@@ -65,7 +65,7 @@ export default function ListaDeProjetos() {
           </li>
 
           <li className="pl-2 text-zinc-400 ">
-            <span className="transition-all hover:text-primary50">
+            <span className="hover:text-primary50 transition-all">
               <Link href="https://trancaderaiz.com.br/" target="_blank">
                 Trança de Raiz
               </Link>
@@ -73,7 +73,7 @@ export default function ListaDeProjetos() {
           </li>
 
           <li className="pl-2 text-zinc-400 ">
-            <span className="transition-all hover:text-primary50">
+            <span className="hover:text-primary50 transition-all">
               <Link href="https://www.auroravca.com.br/" target="_blank">
                 Aurora VCA
               </Link>
