@@ -45,8 +45,8 @@ export default function Sobre() {
           />
         </div>
 
-        <div className="flex w-1/2 flex-col gap-4 text-justify leading-7 max-sm:w-full">
-          <p>
+        <div className="flex w-1/2 flex-col gap-4 text-justify leading-7 max-sm:-mt-10 max-sm:w-full">
+          <p className="text-wrap">
             Olá, eu sou{' '}
             <span className="font-bold text-primary">Felippe Donatto</span>, sou
             desenvolvedor front-end com{' '}
@@ -63,7 +63,7 @@ export default function Sobre() {
 
           <p>
             Desde os primórdios com HTML e CSS até as tecnologias atuais, como
-            <span className="font-bold text-primary">
+            <span className="font-bold text-primary ">
               {' '}
               Typescript, Next.js, JavaScript
             </span>{' '}
@@ -92,7 +92,7 @@ export default function Sobre() {
           </p>
 
           <div className="border-l-4 p-4  leading-6 text-zinc-400" id="bioText">
-            <p>
+            <p className="text-wrap">
               Felippe Donatto é um desenvolvedor front-end e empreendedor
               brasileiro. Sua experiência e dedicação na área o destacam como
               profissional comprometido com o aprimoramento constante.
@@ -112,6 +112,7 @@ export default function Sobre() {
           </Button>
         </div>
       </div>
+
       <Toaster />
     </div>
   )

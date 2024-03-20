@@ -1,9 +1,9 @@
-import { Button } from '@/components/ui/button'
-import Image from 'next/image'
 import Link from 'next/link'
+import Image from 'next/image'
+import { Button } from '@/components/ui/button'
 
-import music from '../../../public/cover-project/cover-music-relax-small.png'
 import tailwind from '../../../public/cover-project/cover-tailwind-css.png'
+import music from '../../../public/cover-project/cover-music-relax-small.png'
 import aniamtion from '../../../public/cover-project/cover-animation-css.png'
 
 export function ProjectHome() {
