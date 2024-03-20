@@ -24,41 +24,31 @@ export function ResponsiveMenu() {
           <ul className="flex flex-col gap-4">
             <li>
               <DialogClose asChild>
-                <Link href={`${process.env.NEXT_PUBLIC_URL_BASE}/`}>Home</Link>
+                <Link href="/">Home</Link>
               </DialogClose>
             </li>
 
             <li>
               <DialogClose asChild>
-                <Link href={`${process.env.NEXT_PUBLIC_URL_BASE}/sobre`}>
-                  Sobre
-                </Link>
+                <Link href="/sobre">Sobre</Link>
               </DialogClose>
             </li>
 
             <li>
               <DialogClose asChild>
-                <Link
-                  href={`${process.env.NEXT_PUBLIC_URL_BASE}/list-projetos`}
-                >
-                  Projeto
-                </Link>
+                <Link href="/list-projetos">Projeto</Link>
               </DialogClose>
             </li>
 
             <li>
               <DialogClose asChild>
-                <Link href={`${process.env.NEXT_PUBLIC_URL_BASE}/list-artigos`}>
-                  Artigos
-                </Link>
+                <Link href="/list-artigos">Artigos</Link>
               </DialogClose>
             </li>
 
             <li>
               <DialogClose asChild>
-                <Link href={`${process.env.NEXT_PUBLIC_URL_BASE}/contato`}>
-                  Contato
-                </Link>
+                <Link href="/contato">Contato</Link>
               </DialogClose>
             </li>
 
