@@ -20,6 +20,18 @@ const bai = FontTitle({
 
 export const metadata: Metadata = {
   title: 'Donatto Dev - Transformando sonhos em negocios!',
+  description: 'Seja bem-vindo ao meu site. Desenvolvedor Front-end',
+  authors: [{ name: 'Felippe Donatto', url: 'https://donattodev.com.br' }],
+  category: 'Desenvolvedor front-end',
+  creator: 'Felippe Donatto',
+  keywords: [
+    'Dev front-end',
+    'Development',
+    'HTML5',
+    'CSS',
+    'Music Relax',
+    'NEXTJS',
+  ],
 }
 
 export default function RootLayout({
