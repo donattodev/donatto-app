@@ -13,11 +13,6 @@ import {
 export default function Contato() {
   return (
     <div className="flex justify-start gap-2 px-56 py-28 max-lg:px-16 max-sm:flex-col max-sm:px-6">
-      <div className="flex w-full flex-col gap-12">
-        <h2 className="text-2xl font-bold uppercase">Entre em contato</h2>
-        <FormCourses />
-      </div>
-
       <div className="w-full">
         <Card>
           <CardHeader>
@@ -43,6 +38,11 @@ export default function Contato() {
             </div>
           </CardContent>
         </Card>
+      </div>
+
+      <div className="flex w-full flex-col gap-12">
+        <h2 className="text-2xl font-bold uppercase">Entre em contato</h2>
+        <FormCourses />
       </div>
     </div>
   )

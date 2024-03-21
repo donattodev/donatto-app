@@ -19,7 +19,7 @@ export function ProjectHome() {
                 className="rounded-xl border-4 border-zinc-800/40"
               />
               <figcaption className="absolute top-0 h-full w-full cursor-pointer rounded-xl bg-black/60 p-6 opacity-0 transition-all hover:opacity-100">
-                <h2 className="absolute bottom-4 text-sm font-semibold text-zinc-300 ">
+                <h2 className="absolute bottom-4 text-sm font-semibold uppercase text-zinc-300 ">
                   Plataforma de música desenvolvida com auxilio de IAs.
                 </h2>
               </figcaption>
@@ -42,7 +42,7 @@ export function ProjectHome() {
               className="rounded-xl border-4 border-zinc-800/40"
             />
             <figcaption className="absolute top-0 h-full w-full cursor-pointer rounded-xl bg-black/60 p-6 opacity-0 transition-all hover:opacity-100">
-              <h2 className="absolute bottom-4 text-sm font-semibold text-zinc-300 ">
+              <h2 className="absolute bottom-4 text-sm font-semibold uppercase text-zinc-300 ">
                 Components HTML usando Tailwind Css como base
               </h2>
             </figcaption>
@@ -64,7 +64,7 @@ export function ProjectHome() {
               className="rounded-xl border-4 border-zinc-800/40"
             />
             <figcaption className="absolute top-0 h-full w-full cursor-pointer rounded-xl bg-black/60 p-6 opacity-0 transition-all hover:opacity-100">
-              <h2 className="absolute bottom-4 text-sm font-semibold text-zinc-300 ">
+              <h2 className="absolute bottom-4 text-sm font-semibold uppercase text-zinc-300">
                 Plataforma de música desenvolvida com auxilio de IAs.
               </h2>
             </figcaption>

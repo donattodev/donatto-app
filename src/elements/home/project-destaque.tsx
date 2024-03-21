@@ -65,9 +65,9 @@ export function ProjectDestaqueHome() {
           <figure className="relative">
             <Image src={music} alt="" className="rounded-xl" />
             <figcaption className="absolute top-0 h-full w-full cursor-pointer rounded-xl bg-black/40 p-6 opacity-0 transition-all hover:opacity-100">
-              <h2 className="font-bold uppercase text-primary">Music Relax</h2>
-              <h2 className="text-sm font-bold uppercase">
-                Criado por Donatto Dev
+              <h2 className="absolute bottom-4 text-sm font-semibold uppercase text-zinc-300">
+                Music Relax - Criado por{' '}
+                <span className="text-primary">Donatto Dev</span>
               </h2>
             </figcaption>
           </figure>
