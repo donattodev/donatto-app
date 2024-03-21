@@ -37,7 +37,7 @@ export function ProjectHome() {
           <div>
             <h2 className="text-2xl font-bold">Tailwind Components</h2>
             <span className="mb-4 flex text-xs font-bold uppercase text-primary">
-              Next Js, Tailwind Css
+              HTML, CSS(tailwind css)
             </span>
           </div>
         </div>
@@ -50,9 +50,9 @@ export function ProjectHome() {
           />
 
           <div>
-            <h2 className="text-2xl font-bold">Animation Css</h2>
+            <h2 className="text-2xl font-bold">Cupons</h2>
             <span className="mb-4 flex text-xs font-bold uppercase text-primary">
-              Next Js, Shadcn Ui
+              Next Js, Tailwind Css
             </span>
           </div>
         </div>

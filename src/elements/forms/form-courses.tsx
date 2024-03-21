@@ -69,6 +69,8 @@ export function FormCourses() {
                 <FormLabel>Seu nome</FormLabel>
                 <FormControl>
                   <Input
+                    type="text"
+                    autoFocus
                     placeholder="Como você gosta de ser chamado?"
                     {...field}
                   />
@@ -125,11 +127,10 @@ export function FormCourses() {
                   </FormControl>
                   <SelectContent>
                     <SelectItem value="Cursos">Cursos</SelectItem>
-                    <SelectItem value="Orçamentos">Orçamentos</SelectItem>
-                    <SelectItem value="Aplicações">Aplicações</SelectItem>
-                    <SelectItem value="Projetos">Projetos</SelectItem>
-                    <SelectItem value="Parcerias">Parcerias</SelectItem>
-                    <SelectItem value="Workshops">Workshops</SelectItem>
+                    <SelectItem value="Orçamentos">Workaulas</SelectItem>
+                    <SelectItem value="Orçamentos">
+                      Eventos presenciais
+                    </SelectItem>
                   </SelectContent>
                 </Select>
                 <FormMessage />
