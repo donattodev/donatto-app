@@ -40,7 +40,7 @@ export default function ListaDeProjetos() {
               <div className="flex items-center gap-2">
                 <span>
                   <Link
-                    href="https://docs.donattodev.com.br/docs/music-relax-docs"
+                    href="https://docs.donattodev.com.br/instalation-music"
                     target="_blank"
                     className="hover:text-primary50 text-[10px] uppercase text-emerald-100  transition-all"
                   >
