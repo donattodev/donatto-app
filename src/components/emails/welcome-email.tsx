@@ -24,7 +24,7 @@ export const WelcomeEmail = () => (
         <Section style={box}>
           <Hr style={hr} />
           <Text style={paragraph}>
-            Obrigado por entrar em contato. Espero poder lçhe ajudar com a minha
+            Obrigado por entrar em contato. Espero poder lhe ajudar com a minha
             resposta. Como atender meus clientes e parceiros sempre dedico um
             periodo do meu dia para ler e responder todos os e-mails.
           </Text>
