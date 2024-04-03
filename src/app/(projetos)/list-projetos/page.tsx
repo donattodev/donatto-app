@@ -55,7 +55,18 @@ export default function ListaDeProjetos() {
             <li className="pl-2 text-zinc-400 ">
               <span className="hover:text-primary50 transition-all">
                 <Link href="https://bioterapyoficial.com" target="_blank">
-                  Bioterapy
+                  Bioterapy - Site institucional
+                </Link>
+              </span>
+            </li>
+
+            <li className="pl-2 text-zinc-400 ">
+              <span className="hover:text-primary50 transition-all">
+                <Link
+                  href="https://bioterapyoficial.com/curso-de-ozonioterapia/"
+                  target="_blank"
+                >
+                  Bioterapy - Landing Page
                 </Link>
               </span>
             </li>

@@ -76,26 +76,17 @@ export function ProjectHome() {
 
                 <ul className=" flex items-center gap-4 text-sm font-bold uppercase text-zinc-400">
                   <li className="transition-all hover:text-primary">
-                    <Link
-                      href="https://music-relax.vercel.app/"
-                      target="_blank"
-                    >
+                    <Link href="#" target="_blank">
                       Projeto
                     </Link>
                   </li>
                   <li className="transition-all hover:text-primary">
-                    <Link
-                      href="https://docs.donattodev.com.br/instalation-music"
-                      target="_blank"
-                    >
+                    <Link href="#" target="_blank">
                       Documentação
                     </Link>
                   </li>
                   <li className="transition-all hover:text-primary">
-                    <Link
-                      href="https://github.com/donattodev/music-relax"
-                      target="_blank"
-                    >
+                    <Link href="#" target="_blank">
                       Github
                     </Link>
                   </li>
@@ -127,26 +118,17 @@ export function ProjectHome() {
 
                 <ul className=" flex items-center gap-4 text-sm font-bold uppercase text-zinc-400">
                   <li className="transition-all hover:text-primary">
-                    <Link
-                      href="https://music-relax.vercel.app/"
-                      target="_blank"
-                    >
+                    <Link href="#" target="_blank">
                       Projeto
                     </Link>
                   </li>
                   <li className="transition-all hover:text-primary">
-                    <Link
-                      href="https://docs.donattodev.com.br/instalation-music"
-                      target="_blank"
-                    >
+                    <Link href="#" target="_blank">
                       Documentação
                     </Link>
                   </li>
                   <li className="transition-all hover:text-primary">
-                    <Link
-                      href="https://github.com/donattodev/music-relax"
-                      target="_blank"
-                    >
+                    <Link href="#" target="_blank">
                       Github
                     </Link>
                   </li>

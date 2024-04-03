@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import { ArtigoContainer } from '@/elements/artigos/artigo-container'
 
 export default function Artigos() {
   return (
@@ -15,57 +15,37 @@ export default function Artigos() {
       </div>
 
       <ul className="mt-12 flex flex-col gap-4">
-        <li className=" items-start rounded-md border-2 border-zinc-500/40 p-6 hover:bg-zinc-900">
-          <Link
-            href="https://vivacious-forest-947.notion.site/Tailwind-CSS-Inova-o-no-Presente-Rumo-ao-Futuro-77c832f3834241d4899816d70d229d6c?pvs=74"
-            target="_blank"
-            className="flex flex-col text-xs font-bold uppercase text-zinc-300 transition-all "
-          >
-            <span className="text-xl font-bold uppercase">
-              Tailwind CSS: Inovação no Presente, Rumo ao Futuro
-            </span>
-            <span className="mb-1 mt-3 w-full max-w-md truncate text-sm text-zinc-700">
-              No cenário dinâmico do desenvolvimento web, o Tailwind CSS
-              surge...
-            </span>
+        <ArtigoContainer
+          title="Tailwind CSS: Inovação no Presente, Rumo ao Futuro"
+          description=" No cenário dinâmico do desenvolvimento web, o Tailwind CSS
+          surge..."
+          href={
+            'https://vivacious-forest-947.notion.site/Tailwind-CSS-Inova-o-no-Presente-Rumo-ao-Futuro-77c832f3834241d4899816d70d229d6c?pvs=74'
+          }
+          tags="Tailwind CSS -  Front end"
+          target="_blank"
+        />
 
-            <ul className="flex items-center gap-2 ">
-              <li className="text-xs font-bold uppercase text-sky-300 ">
-                Tailwind CSS -{' '}
-              </li>
-              <li className="text-xs font-bold uppercase text-sky-300 ">
-                Front end
-              </li>
-            </ul>
-          </Link>
-        </li>
+        <ArtigoContainer
+          title="O Futuro da Programação em 2024: A Era das Inteligências
+          Artificiais"
+          description=" À medida que nos aproximamos de 2024, vislumbramos uma"
+          href={
+            'https://vivacious-forest-947.notion.site/O-Futuro-da-Programa-o-em-2024-A-Era-das-Intelig-ncias-Artificiais-1c3c736378ca490e80545e5f23fb3e0d?pvs=74'
+          }
+          tags="IA -  Tecnologia"
+          target="_blank"
+        />
 
-        <li className="rounded-md border-2 border-zinc-500/40 p-6 hover:bg-zinc-900">
-          <Link
-            href="https://vivacious-forest-947.notion.site/O-Futuro-da-Programa-o-em-2024-A-Era-das-Intelig-ncias-Artificiais-1c3c736378ca490e80545e5f23fb3e0d?pvs=74"
-            target="_blank"
-            className="flex flex-col items-start  text-xs font-bold uppercase text-zinc-300 transition-all "
-          >
-            <span className="text-xl font-bold uppercase">
-              O Futuro da Programação em 2024: A Era das Inteligências
-              Artificiais
-            </span>
-            <span className="mb-1 mt-3 w-full max-w-md truncate text-sm text-zinc-700">
-              À medida que nos aproximamos de 2024, vislumbramos uma revolução
-              empolgante no campo da programação impulsionada pelos avanços das
-              Inteligências Artificiais (IAs).
-            </span>
-
-            <ul className="flex items-center gap-2 ">
-              <li className="text-xs font-bold uppercase text-sky-300 ">
-                IA -{' '}
-              </li>
-              <li className="text-xs font-bold uppercase text-sky-300 ">
-                Tecnologia
-              </li>
-            </ul>
-          </Link>
-        </li>
+        <ArtigoContainer
+          title="CSS-in-JS: Transformando a Forma como Estilizamos Aplicações Web"
+          description="O CSS-in-JS é uma abordagem revolucionária para lidar"
+          href={
+            'https://vivacious-forest-947.notion.site/CSS-in-JS-Transformando-a-Forma-como-Estilizamos-Aplica-es-Web-4681a2322b504b0d9e3ef4a73f3cd6e3'
+          }
+          tags="javascript - CSS"
+          target="_blank"
+        />
       </ul>
     </div>
   )
