@@ -26,7 +26,7 @@ export function DestaqueListProjetos() {
       </div>
 
       <div className="flex flex-col gap-4">
-        <Link href="cupons-pi.vercel.app" target="_blank">
+        <Link href="https://cupons-pi.vercel.app/" target="_blank">
           <div className="flex cursor-pointer flex-col gap-4 rounded-md border p-4 transition-all hover:bg-zinc-900">
             <div className="flex items-center gap-3">
               <Music />
