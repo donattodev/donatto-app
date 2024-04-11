@@ -1,17 +1,17 @@
-import { HeaderHome } from '@/elements/home/header'
-import { ProjectHome } from '@/elements/home/project'
-import { EventosHome } from '@/elements/home/eventos'
+import { HeaderHome } from '@/elements/@pages/home/header'
+import { ProjetosHome } from '@/elements/@pages/home/projetos'
+import { DestaqueProjeto } from '@/elements/@pages/home/destaque'
+import { EventoDestaque } from '@/elements/@pages/home/evento-destaque'
 import { FooterBase } from '@/elements/footer/footer-base'
-import { ProjectDestaqueHome } from '@/elements/home/project-destaque'
 
 export default function Home() {
   return (
-    <main>
+    <>
       <HeaderHome />
-      <ProjectHome />
-      <ProjectDestaqueHome />
-      <EventosHome />
+      <ProjetosHome />
+      <DestaqueProjeto />
+      <EventoDestaque />
       <FooterBase />
-    </main>
+    </>
   )
 }

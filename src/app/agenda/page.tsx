@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { toast } from 'sonner'
 import { Button } from '@/components/ui/button'
 
-import reprogramando from '../../../public/reprogramando.png'
+import reprogramando from '@/assets/cover/reprogramando.png'
 import { Toaster } from '@/components/ui/sonner'
 
 export default function Agenda() {

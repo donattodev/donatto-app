@@ -2,15 +2,15 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { GithubIcon } from '@/components/icons/github'
-import { YoutubIcon } from '@/components/icons/youtube-icon'
 import { SpotifyIcon } from '@/components/icons/spotofy-icon'
+import { YoutubIcon } from '@/components/icons/youtube-icon'
 
-import music from '../../../public/cover-project/cover-music-relax-big.png'
+import music from '@/assets/cover/cover-music-relax-big.png'
 
-export function ProjectDestaqueHome() {
+export function DestaqueProjeto() {
   return (
-    <section className="my-28 flex h-[450px] items-center justify-center gap-8 bg-zinc-900 px-56 max-lg:px-16 max-sm:h-auto max-sm:flex-col max-sm:gap-4 max-sm:py-12">
-      <div className="flex w-full flex-col gap-32 py-[100px] max-sm:gap-4">
+    <section className="my-28 grid grid-cols-2 items-center bg-zinc-800 px-56 py-24 max-lg:px-16 max-sm:grid-cols-1 max-sm:gap-6 max-sm:px-6">
+      <div className="flex w-full flex-col gap-32  max-sm:gap-4">
         <div>
           <h2 className="mb-6 font-title text-2xl font-bold uppercase">
             Projeto de destaque
@@ -60,11 +60,16 @@ export function ProjectDestaqueHome() {
         </div>
       </div>
 
-      <div className="w-full">
+      <div>
         <Link href="https://music-relax.vercel.app/" target="_blank">
-          <figure className="relative">
-            <Image src={music} alt="" className="rounded-xl" />
-            <figcaption className="absolute top-0 h-full w-full cursor-pointer rounded-xl bg-black/40 p-6 opacity-0 transition-all hover:opacity-100">
+          <figure className="relative overflow-hidden">
+            <Image
+              src={music}
+              alt=""
+              className="w-full rounded-xl"
+              quality={100}
+            />
+            <figcaption className="absolute top-0 h-full w-full cursor-pointer  rounded-xl bg-black/40 p-6 opacity-0 transition-all hover:opacity-100">
               <h2 className="absolute bottom-4 text-sm font-semibold uppercase text-zinc-300">
                 Music Relax - Criado por{' '}
                 <span className="text-primary">Donatto Dev</span>

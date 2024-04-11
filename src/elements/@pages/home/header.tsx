@@ -1,11 +1,11 @@
-import { HtmlIcon } from '@/components/icons/html'
-import { CssIcon } from '@/components/icons/css'
 import { JsIcon } from '@/components/icons/js'
+import { CssIcon } from '@/components/icons/css'
+import { HtmlIcon } from '@/components/icons/html'
 import { NextIcon } from '@/components/icons/next'
 
 export function HeaderHome() {
   return (
-    <header className="mb-64 mt-64 px-56 max-lg:px-16 max-sm:mb-28 max-sm:px-6">
+    <header className="my-64 px-56 max-lg:px-16 max-sm:mb-28 max-sm:px-6">
       <hgroup className="flex flex-col gap-6">
         <h1 className="font-title text-6xl font-bold">Felippe Donatto</h1>
 

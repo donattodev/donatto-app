@@ -40,8 +40,8 @@ export function Nav() {
         </li>
       </ul>
 
-      <ul className="lg:hidden">
-        <li className="text-primary">
+      <ul className=" lg:hidden">
+        <li className="w-full text-primary">
           <ResponsiveMenu />
         </li>
       </ul>

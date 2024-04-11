@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { FormCourses } from '../forms/form-courses'
 
 import {
   Dialog,
@@ -49,14 +48,6 @@ export function DialogContact() {
                   </Button>
                 </DialogClose>
               </div>
-
-              <div className="my-4 flex w-full items-center justify-center gap-2">
-                <div className="w-full border-b border-zinc-500/30" />
-                <span className="text-sm font-bold text-zinc-400">ou</span>
-                <div className="w-full border-b border-zinc-500/30" />
-              </div>
-
-              <FormCourses />
             </CardContent>
           </Card>
         </DialogHeader>

@@ -1,23 +1,22 @@
 'use client'
 
 import Image from 'next/image'
-import { toast } from 'sonner'
-import { Toaster } from '@/components/ui/sonner'
+import { Toaster, toast } from 'sonner'
 import { Button } from '@/components/ui/button'
 
-import reprogramando from '../../../public/reprogramando.png'
+import reprogramando from '@/assets/cover/reprogramando.png'
 
-export function EventosHome() {
+export function EventoDestaque() {
   return (
-    <section className="my-28 px-56 max-lg:px-16 max-sm:px-4 ">
-      <h2 className="text-xl font-bold uppercase max-sm:pb-6">Eventos</h2>
+    <section className="my-28 px-56 max-lg:px-16 max-sm:px-6">
+      <h2 className="mb-4 text-xl font-bold uppercase max-sm:pb-6">Eventos</h2>
 
-      <div className="flex items-center justify-center gap-6 max-sm:flex-col">
+      <div className="grid grid-cols-2 items-center gap-4 max-sm:grid-cols-1">
         <div className="w-full ">
           <Image src={reprogramando} alt="" />
         </div>
 
-        <div className="flex w-full flex-col gap-4 py-[100px]">
+        <div className="flex w-full flex-col ">
           <div>
             <hgroup className="mb-12 flex flex-col gap-1">
               <h2 className="font-title text-2xl font-bold uppercase">
@@ -47,8 +46,8 @@ export function EventosHome() {
           <Button
             className="self-start"
             onClick={() =>
-              toast('Inscrições fechadas', {
-                description: 'As incrições serão abertas no dia 25/03/2024',
+              toast('Salve na agenda', {
+                description: 'O evento acontecerá no dia 05/05/2024',
               })
             }
           >
@@ -56,7 +55,7 @@ export function EventosHome() {
           </Button>
         </div>
       </div>
-      <Toaster />
+      <Toaster theme="dark" />
     </section>
   )
 }

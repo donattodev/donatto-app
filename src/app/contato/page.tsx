@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { FormCourses } from '@/elements/forms/form-courses'
 
 import {
   Card,
@@ -38,11 +37,6 @@ export default function Contato() {
             </div>
           </CardContent>
         </Card>
-      </div>
-
-      <div className="flex w-full flex-col gap-12">
-        <h2 className="text-2xl font-bold uppercase">Entre em contato</h2>
-        <FormCourses />
       </div>
     </div>
   )
