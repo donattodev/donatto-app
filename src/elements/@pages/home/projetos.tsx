@@ -79,11 +79,11 @@ export function ProjetosHome() {
                       Projeto
                     </Link>
                   </li>
-                  <li className="transition-all hover:text-primary">
+                  {/* <li className="transition-all hover:text-primary">
                     <Link href="#" target="_blank">
                       Documentação
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="transition-all hover:text-primary">
                     <Link
                       href="https://github.com/donattodev/cupons"
