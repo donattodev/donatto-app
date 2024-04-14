@@ -2,8 +2,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 
-import cupons from '@/assets/cover/cover-cupons.png'
-import music from '@/assets/cover/cover-music-relax-small.png'
+import cupons from '@/assets/cover/cupons-cover.png'
+import music from '@/assets/cover/music-relax-cover.png'
 
 export function ProjetosHome() {
   return (
@@ -65,7 +65,7 @@ export function ProjetosHome() {
             <Image
               src={cupons}
               alt=""
-              className="rounded-xl border-4 border-zinc-800/40"
+              className="w-full rounded-xl border-4 border-zinc-800/40"
             />
             <figcaption className="absolute top-0 h-full w-full rounded-xl bg-black/80 p-6 opacity-0 transition-all hover:opacity-100">
               <div className="absolute bottom-4 flex flex-col gap-3">

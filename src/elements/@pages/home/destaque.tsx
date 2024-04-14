@@ -5,7 +5,7 @@ import { GithubIcon } from '@/components/icons/github'
 import { SpotifyIcon } from '@/components/icons/spotofy-icon'
 import { YoutubIcon } from '@/components/icons/youtube-icon'
 
-import music from '@/assets/cover/cover-music-relax-big.png'
+import music from '@/assets/cover/music-relax-cover.png'
 
 export function DestaqueProjeto() {
   return (
