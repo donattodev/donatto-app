@@ -2,7 +2,12 @@ import { ComponentProps } from 'react'
 
 export function MailIcon(props: ComponentProps<'svg'>) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" {...props}>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+      fill="#7c7c8a"
+      {...props}
+    >
       <rect
         x={48}
         y={96}

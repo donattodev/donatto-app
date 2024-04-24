@@ -4,7 +4,7 @@ export function CssIcon(props: ComponentProps<'svg'>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="ionicon"
+      fill="#7c7c8a"
       viewBox="0 0 512 512"
       {...props}
     >

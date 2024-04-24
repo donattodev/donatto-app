@@ -4,6 +4,7 @@ export function NextIcon(props: ComponentProps<'svg'>) {
   return (
     <svg
       viewBox=".5 -.2 1023 1024.1"
+      fill="#7c7c8a"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >

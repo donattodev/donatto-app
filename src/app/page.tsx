@@ -2,7 +2,7 @@ import { HeaderHome } from '@/elements/@pages/home/header'
 import { ProjetosHome } from '@/elements/@pages/home/projetos'
 import { DestaqueProjeto } from '@/elements/@pages/home/destaque'
 import { EventoDestaque } from '@/elements/@pages/home/evento-destaque'
-import { FooterBase } from '@/elements/footer/footer-base'
+import { Footer } from '@/elements/footer'
 
 export default function Home() {
   return (
@@ -11,7 +11,14 @@ export default function Home() {
       <ProjetosHome />
       <DestaqueProjeto />
       <EventoDestaque />
-      <FooterBase />
+      <Footer.Root>
+        <Footer.Field>
+          <Footer.Branding />
+          <Footer.Area />
+          <Footer.Form />
+        </Footer.Field>
+        <Footer.Base />
+      </Footer.Root>
     </>
   )
 }

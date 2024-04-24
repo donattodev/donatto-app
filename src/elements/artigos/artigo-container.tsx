@@ -14,7 +14,7 @@ export function ArtigoContainer({
   ...props
 }: ArtigosContainerProps) {
   return (
-    <li className=" items-start rounded-md border-2 border-zinc-500/40 p-6 hover:bg-zinc-900">
+    <li className="rounded-md border border-zinc-500/20 p-6 hover:bg-zinc-900">
       <Link
         {...props}
         target="_blank"
@@ -26,7 +26,7 @@ export function ArtigoContainer({
         </span>
 
         <ul className="flex items-center gap-2 ">
-          <li className="text-xs font-bold uppercase text-sky-300 ">{tags}</li>
+          <li className="text-xs font-bold uppercase text-primary ">{tags}</li>
         </ul>
       </Link>
     </li>

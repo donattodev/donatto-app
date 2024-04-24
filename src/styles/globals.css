@@ -104,3 +104,6 @@
   background: #555;
 }
 
+li:hover .icon {
+  fill: #ffffff; 
+}
