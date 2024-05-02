@@ -49,13 +49,13 @@ export default function ListaDeProjetos() {
   }
 
   return (
-    <div className="flex flex-col justify-center gap-6 px-56 py-6">
+    <div className="flex flex-col justify-center gap-6 px-56 py-6 max-xl:px-28 max-md:px-16 max-sm:px-6">
       <div className="flex flex-col gap-3">
         <h2 className="animate-left font-black uppercase text-primary">
           Projetos em destaque
         </h2>
 
-        <div className="flex items-center justify-center gap-4">
+        <div className="flex items-center justify-center gap-4 max-xl:flex-col">
           <div className="animate-left flex w-full flex-col gap-4 ">
             <Link href="https://music-relax.vercel.app/" target="_blank">
               <div className="flex cursor-pointer flex-col gap-4 rounded-md border p-4 transition-all hover:bg-zinc-900">
@@ -92,7 +92,7 @@ export default function ListaDeProjetos() {
         </div>
       </div>
 
-      <form className="animate-left mt-6 w-full max-w-sm">
+      <form className="animate-left mt-6 max-w-sm">
         <Input
           type="text"
           onChange={onSearchInputChanged}

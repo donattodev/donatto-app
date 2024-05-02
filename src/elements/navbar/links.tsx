@@ -5,8 +5,8 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
 export type LinksProps = ComponentProps<'ul'>
 
 const navigation = [
-  // { name: 'Sobre', href: '#', current: false },
   { name: 'Projetos', href: 'projetos', current: false },
+  { name: 'Contato', href: 'contato', current: false },
 ]
 
 export function Links(props: LinksProps) {
@@ -30,9 +30,9 @@ export function Links(props: LinksProps) {
 
       <Sheet>
         <SheetTrigger className="sm:hidden">
-          <MenuIcon />
+          <MenuIcon className="text-primary" />
         </SheetTrigger>
-        <SheetContent>
+        <SheetContent className="flex flex-col gap-2 pt-10">
           {navigation.map((item) => (
             <a
               key={item.name}

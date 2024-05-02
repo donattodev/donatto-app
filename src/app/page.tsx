@@ -146,7 +146,7 @@ export default function Home() {
         </div>
 
         <Button asChild className="self-center border">
-          <Link href="/list-projetos" className="min-w-40">
+          <Link href="/projetos" className="min-w-40">
             ver mais
           </Link>
         </Button>
