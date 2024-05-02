@@ -7,6 +7,7 @@ export type LinksProps = ComponentProps<'ul'>
 const navigation = [
   { name: 'Sobre', href: 'sobre', current: false },
   { name: 'Projetos', href: 'projetos', current: false },
+  { name: 'Artigos', href: '#', current: false },
   { name: 'Contato', href: 'contato', current: false },
 ]
 
