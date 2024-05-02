@@ -3,9 +3,9 @@ import type { Config } from 'tailwindcss'
 const config = {
   darkMode: ['class'],
   content: [
+    './elements/**/*.tsx',
     './components/**/*.tsx',
     './app/**/*.tsx',
-    './elements/**/*.tsx',
     './src/**/*.tsx',
   ],
   prefix: '',
@@ -17,10 +17,9 @@ const config = {
         '2xl': '1400px',
       },
     },
-
     fontFamily: {
       sans: 'var(--font-roboto)',
-      title: 'var(--font-bai)',
+      headline: 'var(--font-bai)',
     },
     extend: {
       colors: {
@@ -37,7 +36,6 @@ const config = {
           DEFAULT: 'hsl(var(--secondary))',
           foreground: 'hsl(var(--secondary-foreground))',
         },
-
         destructive: {
           DEFAULT: 'hsl(var(--destructive))',
           foreground: 'hsl(var(--destructive-foreground))',
@@ -79,7 +77,7 @@ const config = {
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
       screens: {
-        lg: '1032px',
+        xl: '1032px',
       },
     },
   },

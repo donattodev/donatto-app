@@ -107,3 +107,49 @@
 li:hover .icon {
   fill: #ffffff; 
 }
+
+
+.animate-left {
+  animation: animateLeft 1s forwards;
+}
+
+@keyframes animateLeft {
+  0% {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-down {
+  animation: animateDown 1s forwards;
+}
+
+@keyframes animateDown {
+  0% {
+    transform: translateY(60%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-rigth {
+  animation: animateRigth 1s forwards;
+}
+
+@keyframes animateRigth {
+  0% {
+    transform: translateX(10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

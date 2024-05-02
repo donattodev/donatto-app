@@ -3,8 +3,6 @@ import { ComponentProps } from 'react'
 export function IconLogo(props: ComponentProps<'svg'>) {
   return (
     <svg
-      width={56}
-      height={34}
       viewBox="0 0 56 34"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
