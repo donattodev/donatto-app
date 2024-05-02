@@ -18,7 +18,7 @@ import { Footer } from '@/elements/footer'
 export default function Home() {
   return (
     <>
-      <header className="p-56 max-xl:px-28 max-md:px-16 max-sm:px-6">
+      <header className="px-56 py-56 max-xl:px-28 max-md:px-16 max-sm:px-6 max-sm:pb-28 max-sm:pt-48">
         <h1 className="animate-left font-headline text-6xl font-black">
           Felippe Donatto
         </h1>
@@ -50,7 +50,7 @@ export default function Home() {
       </header>
 
       <section className="flex flex-col items-center justify-center gap-8 pb-24">
-        <div className="grid grid-cols-3 gap-2 px-56 max-lg:grid-cols-2 max-lg:px-16 max-sm:grid-cols-1 max-sm:px-6">
+        <div className="grid grid-cols-3 gap-2 px-56 max-xl:px-28 max-lg:grid-cols-2 max-lg:px-16 max-sm:grid-cols-1 max-sm:px-6">
           <div className="animate-down flex w-full flex-col gap-3 max-sm:items-center">
             <figure className="relative">
               <Image
@@ -152,7 +152,7 @@ export default function Home() {
         </Button>
       </section>
 
-      <section className="my-28 grid grid-cols-2 items-center bg-zinc-800 px-56 py-24 max-lg:px-16 max-sm:grid-cols-1 max-sm:gap-6 max-sm:px-6">
+      <section className="my-28 grid grid-cols-2 items-center bg-zinc-800 px-56 py-24 max-xl:px-28 max-lg:px-16 max-sm:grid-cols-1 max-sm:gap-6 max-sm:px-6">
         <div className="flex w-full flex-col gap-32  max-sm:gap-4">
           <div>
             <h2 className="animate-left font-title mb-6 text-2xl font-bold uppercase">
@@ -223,7 +223,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="my-28 px-56 max-lg:px-16 max-sm:px-6">
+      <section className="my-28 px-56 max-xl:px-28 max-lg:px-16 max-sm:px-6">
         <h2 className="animate-left mb-4 text-xl font-bold uppercase max-sm:pb-6">
           Eventos
         </h2>

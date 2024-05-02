@@ -1,22 +1,17 @@
 import Link from 'next/link'
 import { Mail, Smartphone } from 'lucide-react'
-import { YoutubIcon } from '@/components/icons/youtube-icon'
-import { InstagramIcon } from '@/components/icons/instagram'
-import { BehanceIcon } from '@/components/icons/behance'
-import { GithubIcon } from '@/components/icons/github'
-import { LinkedinIcon } from '@/components/icons/linkedin'
-import { SpotifyIcon } from '@/components/icons/spotofy-icon'
 import { FormContato } from '@/elements/forms/form-contato'
+import { SocialLinks } from '@/elements/social/social-links'
 
 export default function Contato() {
   return (
     <div className="grid grid-cols-2 gap-2 px-56 py-32 max-xl:px-28 max-md:px-16 max-sm:grid-cols-1 max-sm:gap-8 max-sm:px-6">
-      <div className="flex flex-col gap-8 max-sm:items-center">
+      <div className="flex flex-col gap-8">
         <div className="mb-6">
-          <h2 className="animate-left text-2xl font-bold uppercase max-sm:text-center">
+          <h2 className="animate-left text-2xl font-bold uppercase">
             Orçamentos
           </h2>
-          <span className="animate-left block text-sm font-light text-zinc-400 max-sm:text-center">
+          <span className="animate-left block text-sm font-light text-zinc-400">
             Entre em contato para tirar suas duvidas sobre os serviços.
           </span>
         </div>
@@ -38,47 +33,7 @@ export default function Contato() {
           </li>
         </ul>
 
-        <ul className="flex items-center gap-4">
-          <li>
-            <Link
-              href="https://www.youtube.com/channel/UCuzXf39ClGKVnH8HikpgMUA"
-              target="_blank"
-            >
-              <YoutubIcon className="icon animate-down w-6" />
-            </Link>
-          </li>
-          <li>
-            <Link href="https://www.instagram.com/donattodev_" target="_blank">
-              <InstagramIcon className="icon animate-down w-6" />
-            </Link>
-          </li>
-          <li>
-            <Link href="https://www.behance.net/felippedon8296" target="_blank">
-              <BehanceIcon className="icon animate-down w-6" />
-            </Link>
-          </li>
-          <li>
-            <Link href="https://github.com/donattodev" target="_blank">
-              <GithubIcon className="icon animate-down w-6" />
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="https://www.linkedin.com/in/felippe-donatto-oliveira-7212a4121/"
-              target="_blank"
-            >
-              <LinkedinIcon className="icon animate-down w-6" />
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="https://open.spotify.com/intl-pt/album/17VsdbGONVYMYrIxOemkP0"
-              target="_blank"
-            >
-              <SpotifyIcon className="icon animate-down w-6" />
-            </Link>
-          </li>
-        </ul>
+        <SocialLinks />
       </div>
       <div>
         <FormContato />
