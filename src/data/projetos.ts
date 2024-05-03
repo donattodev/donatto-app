@@ -10,8 +10,8 @@ export const projetos = [
     id: 2,
     name: 'Cupons',
     projeto: 'https://cupons-pi.vercel.app/',
-    github: null,
-    docs: 'https://github.com/donattodev/cupons',
+    github: 'https://github.com/donattodev/cupons',
+    docs: null,
   },
   {
     id: 3,
