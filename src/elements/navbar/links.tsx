@@ -7,7 +7,12 @@ export type LinksProps = ComponentProps<'ul'>
 const navigation = [
   { name: 'Sobre', href: 'sobre', current: false },
   { name: 'Projetos', href: 'projetos', current: false },
-  { name: 'Artigos', href: '#', current: false },
+  {
+    name: 'Artigos',
+    href: 'https://blog.donattodev.com.br',
+    target: '_blank',
+    current: false,
+  },
   { name: 'Contato', href: 'contato', current: false },
 ]
 
@@ -24,6 +29,7 @@ export function Links(props: LinksProps) {
             href={item.href}
             className="animate-down flex flex-col"
             aria-current={item.current ? 'page' : undefined}
+            target={item.target}
           >
             {item.name}
           </a>
