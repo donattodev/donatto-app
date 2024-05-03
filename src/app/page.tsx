@@ -266,6 +266,10 @@ export default function Home() {
       </section>
 
       <Footer.Root>
+        <Footer.Field>
+          <Footer.Branding />
+          <Footer.Area />
+        </Footer.Field>
         <Footer.Base />
       </Footer.Root>
     </>

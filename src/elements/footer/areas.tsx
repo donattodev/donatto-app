@@ -11,16 +11,18 @@ export function Area() {
             <Link href="/">Home</Link>
           </li>
           <li className="transition-all hover:text-zinc-50">
-            <Link href="/">Projetos</Link>
+            <Link href="/projetos">Projetos</Link>
           </li>
           <li className="transition-all hover:text-zinc-50">
-            <Link href="/">Login</Link>
+            <Link href="/sobre">Sobre</Link>
           </li>
           <li className="transition-all hover:text-zinc-50">
-            <Link href="/">Serviços</Link>
+            <Link href="https://blog.donattodev.com.br" target="_blank">
+              Blog
+            </Link>
           </li>
           <li className="transition-all hover:text-zinc-50">
-            <Link href="/">Cursos</Link>
+            <Link href="/contato">Contato</Link>
           </li>
         </ul>
       </div>
@@ -31,18 +33,6 @@ export function Area() {
         <ul className="flex flex-col gap-2 font-sans text-sm font-semibold text-zinc-400">
           <li className="transition-all hover:text-zinc-50">
             <Link href="/">Politicas e privacidade</Link>
-          </li>
-          <li className="transition-all hover:text-zinc-50">
-            <Link href="/">Termos e condições</Link>
-          </li>
-          <li className="transition-all hover:text-zinc-50">
-            <Link href="/">Atendimento LGPD</Link>
-          </li>
-          <li className="transition-all hover:text-zinc-50">
-            <Link href="/">Treinamento LGPD</Link>
-          </li>
-          <li className="transition-all hover:text-zinc-50">
-            <Link href="/">Configruação de Permissões</Link>
           </li>
         </ul>
       </div>
