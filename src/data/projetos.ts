@@ -35,7 +35,7 @@ export const projetos = [
     docs: null,
   },
   {
-    id: 5,
+    id: 6,
     name: 'Perólas de Cristo',
     projeto: 'https://perolas-de-cristo.vercel.app/',
     github: null,
