@@ -1,7 +1,8 @@
 import '../styles/globals.css'
 import type { Metadata } from 'next'
-import { ThemeProvider } from '@/components/themes/theme-provider'
 import { Nav } from '@/elements/navbar'
+import { Analytics } from '@vercel/analytics/react'
+import { ThemeProvider } from '@/components/themes/theme-provider'
 import { Roboto as FontSans, Bai_Jamjuree as FontTitle } from 'next/font/google'
 
 const roboto = FontSans({
@@ -53,6 +54,7 @@ export default function RootLayout({
             <Nav.Links />
           </Nav.Root>
           {children}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
