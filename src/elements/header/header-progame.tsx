@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button'
 
 export function HeaderProgame() {
   return (
-    <section className="max-sm:bg-progameMobile min-h-screen w-full bg-zinc-900 bg-progame bg-cover">
+    <section className="min-h-screen w-full bg-zinc-900 bg-progame bg-cover max-sm:bg-progameMobile">
       <header className="box flex h-screen items-center max-sm:flex-col max-sm:py-32">
         <div className="flex max-w-md flex-col gap-6">
           <h2 className="font-bold tracking-wider text-zinc-300 max-sm:text-center">
