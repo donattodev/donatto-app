@@ -34,7 +34,7 @@ export function Area() {
 
         <ul className="flex flex-col gap-2 font-sans text-sm font-semibold text-zinc-400">
           <li className="animate-left transition-all hover:text-zinc-50">
-            <Link href="/">Politicas e privacidade</Link>
+            <Link href="/politica-privacidade">Politicas e privacidade</Link>
           </li>
         </ul>
       </div>
