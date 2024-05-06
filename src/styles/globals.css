@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
+@import url("animation.css");
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -75,6 +77,9 @@
   }
 }
 
+.box {
+  @apply px-56 max-xl:px-16 max-sm:px-6
+}
 
 /* CSS media query dentro de um stylesheet */
 @media (max-width: 600px) {
@@ -108,48 +113,3 @@ li:hover .icon {
   fill: #ffffff; 
 }
 
-
-.animate-left {
-  animation: animateLeft 1s forwards;
-}
-
-@keyframes animateLeft {
-  0% {
-    transform: translateX(-10%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-.animate-down {
-  animation: animateDown 1s forwards;
-}
-
-@keyframes animateDown {
-  0% {
-    transform: translateY(60%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-.animate-rigth {
-  animation: animateRigth 1s forwards;
-}
-
-@keyframes animateRigth {
-  0% {
-    transform: translateX(10%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}

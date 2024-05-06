@@ -1,6 +1,6 @@
 export default function PoliticaPrivacidade() {
   return (
-    <section className="gap-8 bg-white px-56 py-16 text-zinc-900 max-xl:px-16 max-sm:px-6">
+    <section className="gap-8 bg-white px-56 py-32 text-zinc-900 max-xl:px-16 max-sm:px-6">
       <h1 className="text-2xl font-black">Política de Privacidade</h1>
 
       <p className="py-3 text-justify">

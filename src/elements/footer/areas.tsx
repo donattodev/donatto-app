@@ -20,7 +20,7 @@ export function Area() {
           </li>
           <li className="animate-left transition-all hover:text-zinc-50">
             <Link href="https://blog.donattodev.com.br" target="_blank">
-              Blog
+              Artigos
             </Link>
           </li>
           <li className="animate-left transition-all hover:text-zinc-50">
@@ -35,6 +35,16 @@ export function Area() {
         <ul className="flex flex-col gap-2 font-sans text-sm font-semibold text-zinc-400">
           <li className="animate-left transition-all hover:text-zinc-50">
             <Link href="/politica-privacidade">Politicas e privacidade</Link>
+          </li>
+        </ul>
+      </div>
+
+      <div className="col-span-1 flex flex-col gap-4">
+        <h2 className="animate-left text-sm font-bold uppercase">Cursos</h2>
+
+        <ul className="flex flex-col gap-2 font-sans text-sm font-semibold text-zinc-400">
+          <li className="animate-left transition-all hover:text-zinc-50">
+            <Link href="/progame">Progame</Link>
           </li>
         </ul>
       </div>

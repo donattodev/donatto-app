@@ -20,7 +20,7 @@ export function Links(props: LinksProps) {
   return (
     <>
       <ul
-        className="inline-flex gap-8 font-sans text-sm font-semibold uppercase text-zinc-400 max-sm:hidden"
+        className="inline-flex gap-8 font-sans text-sm font-semibold uppercase text-zinc-100 max-sm:hidden"
         {...props}
       >
         {navigation.map((item) => (

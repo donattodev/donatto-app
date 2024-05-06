@@ -35,7 +35,7 @@ export default function Sobre() {
 
   return (
     <>
-      <section className="flex justify-center gap-4 px-56 py-16 max-xl:px-28 max-sm:flex-col max-sm:px-6">
+      <section className="flex justify-center gap-4 px-56 py-32 max-xl:px-28 max-sm:flex-col max-sm:px-6">
         <div className="animate-left w-2/6 max-sm:w-full">
           <Image
             src={donatto}

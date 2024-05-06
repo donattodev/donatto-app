@@ -79,6 +79,10 @@ const config = {
       screens: {
         xl: '1032px',
       },
+      backgroundImage: {
+        progame: 'url(/progame.png)',
+        progameMobile: 'url(/mobile-programa.png)',
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],

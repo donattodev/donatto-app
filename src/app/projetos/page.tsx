@@ -49,7 +49,7 @@ export default function ListaDeProjetos() {
   }
 
   return (
-    <div className="flex flex-col justify-center gap-6 px-56 py-6 max-xl:px-28 max-md:px-16 max-sm:px-6">
+    <div className="flex flex-col justify-center gap-6 px-56 py-32 max-xl:px-28 max-md:px-16 max-sm:px-6">
       <div className="flex flex-col gap-3">
         <h2 className="animate-left font-black uppercase text-primary">
           Projetos em destaque
