@@ -123,13 +123,24 @@ export default function Progame() {
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">
                 <AccordionTrigger>
-                  Mundo 01 - O inicio da jornada
+                  Mundo 01 - O inicio da jornada Descrobrindo o HTML
                 </AccordionTrigger>
-                <AccordionContent>Conteudo</AccordionContent>
+                <AccordionContent>
+                  <ul className="flex flex-col gap-2 font-semibold uppercase text-zinc-400">
+                    <li>Primeiras TAGS</li>
+                    <li>Estrutura semantica</li>
+                    <li>Listas ordenadas e não ordenadas</li>
+                    <li>Paragrafos e titulos</li>
+                    <li>Formatação de texto e simbolos</li>
+                    <li>Imagens, videos e audios</li>
+                    <li>Tags complementares e primerias codigos com css</li>
+                    <li>Estilos globais e arquivos separados</li>
+                  </ul>
+                </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2">
                 <AccordionTrigger>
-                  Mundo 02 - Descrobrindo o Html
+                  Mundo 02 - Construindo o primeiro projeto.
                 </AccordionTrigger>
                 <AccordionContent>Conteudo</AccordionContent>
               </AccordionItem>
