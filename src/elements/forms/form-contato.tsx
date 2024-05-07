@@ -9,6 +9,8 @@ import { Button } from '@/components/ui/button'
 import { Textarea } from '@/components/ui/textarea'
 import { zodResolver } from '@hookform/resolvers/zod'
 
+import { saveInfoEvents } from '@/app/_actions/action-events'
+
 import {
   Form,
   FormControl,
@@ -25,8 +27,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select'
-
-import { saveLead } from '@/app/actions'
 
 const formSchema = z.object({
   username: z.string().min(2, {
@@ -60,17 +60,15 @@ export function FormContato() {
 
   const [isCompleted, setCompleted] = useState(false)
 
-  const onSubmit = async function onSubmit(values: z.infer<typeof formSchema>) {
+  async function createInfoEvents(values: z.infer<typeof formSchema>) {
     setCompleted(true)
-    await saveLead({
+    await saveInfoEvents({
       username: values.username,
       email: values.email,
       assunto: values.assunto,
       whatsapp: values.whatsapp,
       mensagem: values.mensagem,
     })
-    console.log(saveLead)
-    console.log(values)
   }
 
   return (
@@ -95,7 +93,7 @@ export function FormContato() {
         <>
           <Form {...form}>
             <form
-              onSubmit={form.handleSubmit(onSubmit)}
+              onSubmit={form.handleSubmit(createInfoEvents)}
               className="animate-rigth flex flex-col gap-4"
             >
               <h2 className="text-2xl font-bold uppercase">

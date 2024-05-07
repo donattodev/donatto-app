@@ -2,7 +2,7 @@
 
 import { sql } from '@vercel/postgres'
 
-export async function saveLead({
+export async function saveInfoEvents({
   username,
   email,
   assunto,

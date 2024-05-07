@@ -3,8 +3,8 @@ import { NextResponse } from 'next/server'
 
 export async function GET() {
   try {
-    // Renomeando a tabela InfoMatricula para Info_Matricula
-    const result = await sql`ALTER TABLE InfoMatricula RENAME TO Info_Matricula`
+    const result =
+      await sql`CREATE TABLE Newsletter  ( Name varchar(255), Whatsapp varchar(25), Mensagem varchar(5), Politica varchar(25) )`
 
     return NextResponse.json({ result }, { status: 200 })
   } catch (error) {

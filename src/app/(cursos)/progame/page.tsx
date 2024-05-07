@@ -2,7 +2,6 @@ import { Footer } from '@/elements/footer'
 import { HeaderProgame } from '@/elements/header/header-progame'
 import { DialogProgame } from '@/elements/dialog/dialog-progame'
 import { ButtonWhatsapp } from '@/elements/buttons/button-whatsapp'
-import { FormInfoProgame } from '@/elements/forms/form-info-progame'
 import { ButtonMatricula } from '@/elements/buttons/button-matricula'
 
 import {
@@ -20,6 +19,7 @@ import {
   PersonStanding,
   Play,
 } from 'lucide-react'
+import { FormInfoMatriculaProgame } from '@/elements/forms/form-info-matricula-progame'
 
 export default function Progame() {
   return (
@@ -222,7 +222,7 @@ export default function Progame() {
           </div>
 
           <div className="w-full max-w-4xl">
-            <FormInfoProgame />
+            <FormInfoMatriculaProgame />
           </div>
         </section>
 
