@@ -1,5 +1,7 @@
+import { Footer } from '@/elements/footer'
 import { Button } from '@/components/ui/button'
 import { HeaderProgame } from '@/elements/header/header-progame'
+import { FormInfoProgame } from '@/elements/forms/form-info-progame'
 
 import {
   Accordion,
@@ -22,7 +24,7 @@ export default function Progame() {
     <>
       <HeaderProgame />
 
-      <main className="py-10">
+      <main className="pt-10">
         <section className="box flex flex-col items-center gap-16 py-16">
           <div className="flex flex-col items-center  gap-1">
             <h2 className="animate-down text-4xl font-bold uppercase max-sm:text-center">
@@ -210,6 +212,30 @@ export default function Progame() {
             </div>
           </div>
         </section>
+
+        <section className="box flex flex-col items-center gap-16 pb-24 pt-16">
+          <div className="flex flex-col items-center gap-1">
+            <h2 className="animate-down text-4xl font-bold uppercase">
+              Como <span className="text-primary">matricular</span>?
+            </h2>
+            <p className="animate-down text-center text-sm font-semibold uppercase text-zinc-300">
+              Envie seu whatsapp e receba todas as informações de como se
+              matricular
+            </p>
+          </div>
+
+          <div className="w-full max-w-4xl">
+            <FormInfoProgame />
+          </div>
+        </section>
+
+        <Footer.Root>
+          <Footer.Field>
+            <Footer.Branding />
+            <Footer.Area />
+          </Footer.Field>
+          <Footer.Base />
+        </Footer.Root>
       </main>
     </>
   )
