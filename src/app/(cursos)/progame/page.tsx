@@ -52,7 +52,7 @@ export default function Progame() {
               </div>
               <p className="text-justify text-sm tracking-wider text-zinc-300">
                 Durante o curso, desenvolveremos 4 projetos completos: um blog,
-                uma documentação, um jogo da memória e um jogo de quiz. Fora os
+                uma documentação, um jogo do Dino e um jogo de quiz. Fora os
                 desafios e exercicios
               </p>
             </div>
@@ -191,7 +191,7 @@ export default function Progame() {
 
             <div className="flex w-full flex-col items-center gap-2">
               <div className="aspect-video w-full animate-pulse rounded-md border-2 border-zinc-500/40 bg-zinc-950" />
-              <span className="font-bold uppercase">Jogo da memória</span>
+              <span className="font-bold uppercase">Jogo do Dino</span>
             </div>
 
             <div className="flex w-full flex-col items-center gap-2">
