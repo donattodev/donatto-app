@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button'
 
 export function HeaderProgame() {
   return (
-    <header className="flex w-full">
+    <header className="flex w-full bg-zinc-900">
       <div className="flex min-h-screen w-full flex-col items-start justify-center gap-8 pl-56">
         <div className="flex flex-col items-start gap-6">
           <h2 className="animate-left font-bold tracking-wider text-zinc-300">

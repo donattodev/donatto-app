@@ -1,3 +1,4 @@
+import { Button } from '@/components/ui/button'
 import { HeaderProgame } from '@/elements/header/header-progame'
 
 import {
@@ -105,6 +106,8 @@ export default function Progame() {
               </p>
             </div>
           </div>
+
+          <Button className="animate-left">Fale com o professor</Button>
         </section>
 
         <section className="flex flex-col items-center gap-16 py-16">
@@ -137,13 +140,13 @@ export default function Progame() {
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2">
-                <AccordionTrigger>
-                  Mundo 02 - Construindo o primeiro projeto.
-                </AccordionTrigger>
+                <AccordionTrigger>Mundo 02 - A magia do CSS</AccordionTrigger>
                 <AccordionContent>Conteudo</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3">
-                <AccordionTrigger>Mundo 03 - A magia do Css</AccordionTrigger>
+                <AccordionTrigger>
+                  Mundo 03 - Contruindo o primeiro Projeto
+                </AccordionTrigger>
                 <AccordionContent>Conteudo</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-4">
@@ -166,6 +169,13 @@ export default function Progame() {
               </AccordionItem>
             </Accordion>
           </div>
+
+          <Button
+            variant={'outline'}
+            className="animate-left border-2 border-primary bg-transparent"
+          >
+            Matricule-se agora
+          </Button>
         </section>
 
         <section className="box flex flex-col items-center gap-16 bg-zinc-900 pb-24 pt-16">
