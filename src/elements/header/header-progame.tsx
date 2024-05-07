@@ -1,4 +1,5 @@
-import { Button } from '@/components/ui/button'
+import { ButtonWhatsapp } from '../buttons/button-whatsapp'
+import { ButtonMatricula } from '../buttons/button-matricula'
 
 export function HeaderProgame() {
   return (
@@ -18,13 +19,8 @@ export function HeaderProgame() {
         </div>
 
         <div className="flex gap-4">
-          <Button className="animate-left">Fale com o professor</Button>
-          <Button
-            variant={'outline'}
-            className="animate-left border-2 border-primary bg-transparent"
-          >
-            Matricule-se agora
-          </Button>
+          <ButtonWhatsapp />
+          <ButtonMatricula />
         </div>
       </div>
       <div className="min-h-screen w-full bg-progame bg-cover" />

@@ -62,14 +62,14 @@ export function DialogProgame() {
             </div>
 
             <button
-              className="absolute right-2 top-2 text-zinc-200"
+              className="absolute right-2 top-2 flex size-7 items-center justify-center rounded-full border-zinc-50 text-zinc-50 transition-all hover:border hover:bg-zinc-100 hover:text-zinc-500"
               onClick={handleClose}
             >
               <X className="w-4" />
             </button>
 
             <button
-              className="absolute bottom-2 left-2 text-xs uppercase text-zinc-600 underline underline-offset-2 max-sm:bottom-2 max-sm:left-8"
+              className="absolute bottom-4 left-6 text-xs uppercase text-zinc-600 underline underline-offset-2 max-sm:bottom-2 max-sm:left-8"
               onClick={handleClose}
             >
               Não quero mais receber esse pop-up

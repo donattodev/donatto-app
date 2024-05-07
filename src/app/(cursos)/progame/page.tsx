@@ -1,8 +1,9 @@
 import { Footer } from '@/elements/footer'
-import { Button } from '@/components/ui/button'
 import { HeaderProgame } from '@/elements/header/header-progame'
-import { FormInfoProgame } from '@/elements/forms/form-info-progame'
 import { DialogProgame } from '@/elements/dialog/dialog-progame'
+import { ButtonWhatsapp } from '@/elements/buttons/button-whatsapp'
+import { FormInfoProgame } from '@/elements/forms/form-info-progame'
+import { ButtonMatricula } from '@/elements/buttons/button-matricula'
 
 import {
   Accordion,
@@ -110,7 +111,7 @@ export default function Progame() {
             </div>
           </div>
 
-          <Button className="animate-left">Fale com o professor</Button>
+          <ButtonWhatsapp />
         </section>
 
         <section className="flex flex-col items-center gap-16 py-16">
@@ -173,12 +174,7 @@ export default function Progame() {
             </Accordion>
           </div>
 
-          <Button
-            variant={'outline'}
-            className="animate-left border-2 border-primary bg-transparent"
-          >
-            Matricule-se agora
-          </Button>
+          <ButtonMatricula />
         </section>
 
         <section className="box flex flex-col items-center gap-16 bg-zinc-900 pb-24 pt-16">
