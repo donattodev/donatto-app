@@ -5,7 +5,7 @@ import { X } from 'lucide-react'
 import { useState, useEffect } from 'react'
 import { FormNewsletterProgame } from '../forms/form-newsletter-progame'
 
-import banner from '@/assets/progame/banner-popup.png'
+import banner from '../../../public/progame/banner-popup.png'
 
 export function DialogProgame() {
   const [isOpen, setIsOpen] = useState(false)
