@@ -23,6 +23,10 @@ export function DialogProgame() {
 
   const handleClose = () => {
     setIsOpen(false)
+  }
+
+  const handleCloseEver = () => {
+    setIsOpen(false)
     localStorage.setItem('hasClosedPopup', 'true')
   }
 
@@ -70,7 +74,7 @@ export function DialogProgame() {
 
             <button
               className="absolute bottom-4 left-6 text-xs uppercase text-zinc-600 underline underline-offset-2 max-sm:bottom-2 max-sm:left-8"
-              onClick={handleClose}
+              onClick={handleCloseEver}
             >
               Não quero mais receber esse pop-up
             </button>
