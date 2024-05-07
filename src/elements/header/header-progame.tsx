@@ -27,7 +27,7 @@ export function HeaderProgame() {
           </Button>
         </div>
       </div>
-      <div className="min-h-screen w-full bg-progameMobile bg-cover" />
+      <div className="min-h-screen w-full bg-progame bg-cover" />
     </header>
   )
 }

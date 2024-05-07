@@ -80,8 +80,7 @@ const config = {
         xl: '1032px',
       },
       backgroundImage: {
-        progame: 'url(/progame.png)',
-        progameMobile: 'url(/mobile-programa.png)',
+        progame: 'url(/progame/mobile-progame.png)',
       },
     },
   },
