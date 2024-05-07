@@ -10,6 +10,10 @@
   animation: animateRigth 1s forwards;
 }
 
+.animate-fade {
+  animation: fade 1s forwards;
+}
+
 @keyframes animateLeft {
   0% {
     transform: translateX(-10%);
@@ -40,6 +44,13 @@
   }
   100% {
     transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+@keyframes fade {
+  to {
     opacity: 1;
   }
 }

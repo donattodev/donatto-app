@@ -2,6 +2,7 @@ import { Footer } from '@/elements/footer'
 import { Button } from '@/components/ui/button'
 import { HeaderProgame } from '@/elements/header/header-progame'
 import { FormInfoProgame } from '@/elements/forms/form-info-progame'
+import { DialogProgame } from '@/elements/dialog/dialog-progame'
 
 import {
   Accordion,
@@ -237,6 +238,8 @@ export default function Progame() {
           <Footer.Base />
         </Footer.Root>
       </main>
+
+      <DialogProgame />
     </>
   )
 }
