@@ -2,24 +2,20 @@
 
 import { Button } from '@/components/ui/button'
 import { track } from '@vercel/analytics/react'
+import Link from 'next/link'
 
-interface ButtonProps {
-  info?: string
-  local?: string
-}
-
-export function ButtonWhatsapp({
-  local = 'Progame',
-  info = 'Whatsapp',
-}: ButtonProps) {
+export function ButtonWhatsapp() {
   return (
     <Button
       className="animate-left"
       onClick={() => {
-        track(info, { location: local })
+        track('WhatsApp', { location: 'Progame' })
       }}
+      asChild
     >
-      Fale com o professor
+      <Link href="#" target="_blank">
+        Fale com o professor
+      </Link>
     </Button>
   )
 }

@@ -2,6 +2,7 @@
 
 import { Button } from '@/components/ui/button'
 import { track } from '@vercel/analytics/react'
+import Link from 'next/link'
 
 export function ButtonMatricula() {
   return (
@@ -11,8 +12,11 @@ export function ButtonMatricula() {
       onClick={() => {
         track('Matricula', { location: 'Progame' })
       }}
+      asChild
     >
-      Matricule-se agora
+      <Link href="#" target="_blank">
+        Matricule-se agora
+      </Link>
     </Button>
   )
 }
