@@ -24,16 +24,16 @@ export default function Progame() {
       <main className="py-10">
         <section className="box flex flex-col items-center gap-16 py-16">
           <div className="flex flex-col items-center  gap-1">
-            <h2 className="text-4xl font-bold uppercase max-sm:text-center">
+            <h2 className="animate-down text-4xl font-bold uppercase max-sm:text-center">
               O QUE TEM NO <span className="text-primary">PROGAME </span>?
             </h2>
-            <p className="max-w-xs text-center text-sm font-semibold text-zinc-300">
+            <p className="animate-down max-w-xs text-center text-sm font-semibold text-zinc-300">
               DESCUBRA TODOS OS NOSSOS RECURSOS E OPÇÕES DE CURSOS
             </p>
           </div>
 
           <div className="flex flex-wrap justify-center gap-4 ">
-            <div className="flex w-full max-w-[365px] flex-col justify-center gap-4 rounded-md border-2 border-zinc-500/40 bg-zinc-900 px-6 py-4 max-xl:max-w-sm">
+            <div className="animate-left flex w-full max-w-[365px] flex-col justify-center gap-4 rounded-md border-2 border-zinc-500/40 bg-zinc-900 px-6 py-4 max-xl:max-w-sm">
               <div className="flex items-center gap-3 uppercase">
                 <Play className="size-8 text-primary" />
                 <span className="font-bold">Mais de 90 aulas</span>
@@ -41,11 +41,11 @@ export default function Progame() {
               <p className="text-justify text-sm  text-zinc-300">
                 O curso oferece mais de 48 aulas divididas em 6 módulos, além de
                 48 plantões de dúvidas com mais de 2 horas de duração cada,
-                todos gravados para acesso posterior.
+                todas aovivo e ficam gravadas para acesso posterior.
               </p>
             </div>
 
-            <div className="flex w-full max-w-[365px] flex-col justify-center gap-4 rounded-md border-2 border-zinc-500/40 bg-zinc-900 px-6 py-4 max-xl:max-w-sm">
+            <div className="animate-left flex w-full max-w-[365px] flex-col justify-center gap-4 rounded-md border-2 border-zinc-500/40 bg-zinc-900 px-6 py-4 max-xl:max-w-sm">
               <div className="flex items-center gap-3 uppercase">
                 <Gamepad2 className="size-8 text-primary" />
                 <span className="font-bold">4 projetos</span>
@@ -57,7 +57,7 @@ export default function Progame() {
               </p>
             </div>
 
-            <div className="flex w-full max-w-[365px] flex-col justify-center gap-4 rounded-md border-2 border-zinc-500/40 bg-zinc-900 px-6 py-4 max-xl:max-w-sm">
+            <div className="animate-left flex w-full max-w-[365px] flex-col justify-center gap-4 rounded-md border-2 border-zinc-500/40 bg-zinc-900 px-6 py-4 max-xl:max-w-sm">
               <div className="flex items-center gap-3 uppercase">
                 <PersonStanding className="size-8 text-primary" />
                 <span className="font-bold">+ de 20 Exercicios</span>
@@ -69,12 +69,10 @@ export default function Progame() {
               </p>
             </div>
 
-            <div className="flex w-full max-w-[365px] flex-col justify-center gap-4 rounded-md border-2 border-zinc-500/40 bg-zinc-900 px-6 py-4 max-xl:max-w-sm">
+            <div className="animate-left flex w-full max-w-[365px] flex-col justify-center gap-4 rounded-md border-2 border-zinc-500/40 bg-zinc-900 px-6 py-4 max-xl:max-w-sm">
               <div className="flex items-center gap-3 uppercase">
                 <LibraryBig className="size-8 text-primary" />
-                <span className="font-bold">
-                  Material didatico complementar
-                </span>
+                <span className="font-bold">Material complementar</span>
               </div>
               <p className="text-justify text-sm tracking-wider text-zinc-300">
                 O aluno receberá gratuitamente um material complementar, que
@@ -83,7 +81,7 @@ export default function Progame() {
               </p>
             </div>
 
-            <div className="flex w-full max-w-[365px] flex-col justify-center gap-4 rounded-md border-2 border-zinc-500/40 bg-zinc-900 px-6 py-4 max-xl:max-w-sm">
+            <div className="animate-left flex w-full max-w-[365px] flex-col justify-center gap-4 rounded-md border-2 border-zinc-500/40 bg-zinc-900 px-6 py-4 max-xl:max-w-sm">
               <div className="flex items-center gap-3 uppercase">
                 <GraduationCap className="size-8 text-primary" />
                 <span className="font-bold">Modalidades</span>
@@ -95,7 +93,7 @@ export default function Progame() {
               </p>
             </div>
 
-            <div className="flex w-full max-w-[365px] flex-col justify-center gap-4 rounded-md border-2 border-zinc-500/40 bg-zinc-900 px-6 py-4 max-xl:max-w-sm">
+            <div className="animate-left flex w-full max-w-[365px] flex-col justify-center gap-4 rounded-md border-2 border-zinc-500/40 bg-zinc-900 px-6 py-4 max-xl:max-w-sm">
               <div className="flex items-center gap-3 uppercase">
                 <Gift className="size-8 text-primary" />
                 <span className="font-bold">Bonus</span>
@@ -111,15 +109,15 @@ export default function Progame() {
 
         <section className="flex flex-col items-center gap-16 py-16">
           <div className="flex flex-col items-center gap-1 max-sm:text-center">
-            <h2 className="text-4xl font-bold uppercase">
-              Todo o <span className="text-primary">conteudo </span> do PROGAME
+            <h2 className="animate-down text-4xl font-bold uppercase">
+              Todo o <span className="text-primary">conteúdo </span> do PROGAME
             </h2>
-            <p className="text-center text-sm font-semibold uppercase text-zinc-300 max-sm:px-10">
+            <p className="animate-down text-center text-sm font-semibold uppercase text-zinc-300 max-sm:px-10">
               Descruba o caminho para vencer esse jogo!
             </p>
           </div>
 
-          <div className="w-full max-w-3xl max-sm:px-6">
+          <div className="animate-down w-full max-w-4xl max-sm:px-6">
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">
                 <AccordionTrigger>
@@ -149,13 +147,13 @@ export default function Progame() {
                 <AccordionContent>Conteudo</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-4">
-                <AccordionTrigger className="truncate">
+                <AccordionTrigger>
                   Mundo 04 - Cosntuindo a sua fortaleza!
                 </AccordionTrigger>
                 <AccordionContent>Conteudo</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-5">
-                <AccordionTrigger className="truncate">
+                <AccordionTrigger>
                   Mundo 05 - Javascript o seu grande aliado
                 </AccordionTrigger>
                 <AccordionContent>Conteudo</AccordionContent>
@@ -172,14 +170,15 @@ export default function Progame() {
 
         <section className="box flex flex-col items-center gap-16 bg-zinc-900 pb-24 pt-16">
           <div className="flex flex-col items-center gap-1">
-            <h2 className="text-4xl font-bold uppercase text-primary">
+            <h2 className="animate-down text-4xl font-bold uppercase text-primary">
               Projetos
             </h2>
-            <p className="text-center text-sm font-semibold uppercase text-zinc-300">
+            <p className="animate-down text-center text-sm font-semibold uppercase text-zinc-300">
               Conheça os nossos desafios
             </p>
           </div>
-          <div className="flex w-full justify-center gap-4  max-sm:flex-col">
+
+          <div className="animate-down flex w-full justify-center gap-4  max-sm:flex-col">
             <div className="flex w-full flex-col items-center gap-2">
               <div className="aspect-video w-full animate-pulse rounded-md border-2 border-zinc-500/40 bg-zinc-950" />
               <span className="font-bold uppercase">Blog</span>
