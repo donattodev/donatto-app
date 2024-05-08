@@ -1,9 +1,13 @@
+import Image from 'next/image'
 import { Footer } from '@/elements/footer'
 import { HeaderProgame } from '@/elements/header/header-progame'
 import { DialogProgame } from '@/elements/dialog/dialog-progame'
 import { ButtonWhatsapp } from '@/elements/buttons/button-whatsapp'
 import { ButtonMatricula } from '@/elements/buttons/button-matricula'
 import { FormInfoMatriculaProgame } from '@/elements/forms/form-info-matricula-progame'
+
+import blog from '@/assets/progame/blog-projeto.png'
+import quiz from '@/assets/progame/projeto-quiz.png'
 
 import {
   Accordion,
@@ -191,7 +195,11 @@ export default function Progame() {
 
           <div className="animate-down flex w-full justify-center gap-4  max-sm:flex-col">
             <div className="flex w-full flex-col items-center gap-2">
-              <div className="aspect-video w-full animate-pulse rounded-md border-2 border-zinc-500/40 bg-zinc-950" />
+              <Image
+                src={blog}
+                alt=""
+                className="aspect-video rounded-md border-2  border-zinc-500/40"
+              />
               <span className="font-bold uppercase">Blog</span>
             </div>
 
@@ -206,7 +214,11 @@ export default function Progame() {
             </div>
 
             <div className="flex w-full flex-col items-center gap-2">
-              <div className="aspect-video w-full animate-pulse rounded-md border-2 border-zinc-500/40 bg-zinc-950" />
+              <Image
+                src={quiz}
+                alt=""
+                className="aspect-video rounded-md border-2  border-zinc-500/40"
+              />
               <span className="font-bold uppercase">Quiz</span>
             </div>
           </div>
