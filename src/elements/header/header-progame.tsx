@@ -4,7 +4,7 @@ import { ButtonMatricula } from '../buttons/button-matricula'
 export function HeaderProgame() {
   return (
     <header className="flex bg-zinc-900">
-      <div className="max-sm:bg-mobile flex min-h-screen w-full flex-col items-start justify-center gap-8 pl-56 max-xl:pl-16 max-sm:bg-cover max-sm:bg-no-repeat max-sm:px-6">
+      <div className="flex min-h-screen w-full flex-col items-start justify-center gap-8 pl-56 max-xl:pl-16 max-sm:bg-mobile max-sm:bg-cover max-sm:bg-no-repeat max-sm:px-6">
         <div className="flex flex-col items-start gap-6">
           <h2 className="animate-left font-bold tracking-wider text-zinc-300 max-sm:text-center">
             PORQUE APRENDER PODE SER BRINCANDO!
