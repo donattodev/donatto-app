@@ -8,7 +8,7 @@ import { LinkedinIcon } from '@/components/icons/linkedin'
 
 export function Base() {
   return (
-    <div className="flex w-full items-center justify-between bg-black/10 px-56 py-6 max-xl:px-28 max-lg:px-16 max-sm:px-6">
+    <div className="box flex w-full items-center justify-between  bg-black/10 py-6">
       <div>
         <ul className="flex items-center gap-3">
           <li className="animate-down rounded bg-zinc-950 p-2 transition-all hover:bg-primary">

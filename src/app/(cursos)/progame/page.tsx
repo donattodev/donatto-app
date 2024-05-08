@@ -3,6 +3,7 @@ import { HeaderProgame } from '@/elements/header/header-progame'
 import { DialogProgame } from '@/elements/dialog/dialog-progame'
 import { ButtonWhatsapp } from '@/elements/buttons/button-whatsapp'
 import { ButtonMatricula } from '@/elements/buttons/button-matricula'
+import { FormInfoMatriculaProgame } from '@/elements/forms/form-info-matricula-progame'
 
 import {
   Accordion,
@@ -19,7 +20,6 @@ import {
   PersonStanding,
   Play,
 } from 'lucide-react'
-import { FormInfoMatriculaProgame } from '@/elements/forms/form-info-matricula-progame'
 
 export default function Progame() {
   return (
@@ -127,7 +127,7 @@ export default function Progame() {
           <div className="animate-down w-full max-w-4xl max-sm:px-6">
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">
-                <AccordionTrigger>
+                <AccordionTrigger className="max-sm:justify-center">
                   Mundo 01 - O inicio da jornada Descrobrindo o HTML
                 </AccordionTrigger>
                 <AccordionContent>
@@ -144,29 +144,31 @@ export default function Progame() {
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2">
-                <AccordionTrigger>Mundo 02 - A magia do CSS</AccordionTrigger>
+                <AccordionTrigger className="max-sm:justify-center">
+                  Mundo 02 - A magia do CSS
+                </AccordionTrigger>
                 <AccordionContent>Conteudo</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3">
-                <AccordionTrigger>
+                <AccordionTrigger className="max-sm:justify-center">
                   Mundo 03 - Contruindo o primeiro Projeto
                 </AccordionTrigger>
                 <AccordionContent>Conteudo</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-4">
-                <AccordionTrigger>
+                <AccordionTrigger className="max-sm:justify-center">
                   Mundo 04 - Cosntuindo a sua fortaleza!
                 </AccordionTrigger>
                 <AccordionContent>Conteudo</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-5">
-                <AccordionTrigger>
+                <AccordionTrigger className="max-sm:justify-center">
                   Mundo 05 - Javascript o seu grande aliado
                 </AccordionTrigger>
                 <AccordionContent>Conteudo</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-6">
-                <AccordionTrigger>
+                <AccordionTrigger className="max-sm:justify-center">
                   Mundo 06 - A grande batalha!
                 </AccordionTrigger>
                 <AccordionContent>Conteudo</AccordionContent>
@@ -212,7 +214,7 @@ export default function Progame() {
 
         <section className="box flex flex-col items-center gap-16 pb-24 pt-16">
           <div className="flex flex-col items-center gap-1">
-            <h2 className="animate-down text-4xl font-bold uppercase">
+            <h2 className="animate-down text-4xl font-bold uppercase max-sm:text-center">
               Como <span className="text-primary">matricular</span>?
             </h2>
             <p className="animate-down text-center text-sm font-semibold uppercase text-zinc-300">

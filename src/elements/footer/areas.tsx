@@ -36,6 +36,9 @@ export function Area() {
           <li className="animate-left transition-all hover:text-zinc-50">
             <Link href="/politica-privacidade">Politicas e privacidade</Link>
           </li>
+          <li className="animate-left transition-all hover:text-zinc-50">
+            <Link href="/atendimento-lgpd">Atenidmento LGPD</Link>
+          </li>
         </ul>
       </div>
 

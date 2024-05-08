@@ -73,7 +73,7 @@ export function DialogProgame() {
             </button>
 
             <button
-              className="absolute bottom-4 left-6 text-xs uppercase text-zinc-600 underline underline-offset-2 max-sm:bottom-2 max-sm:left-8"
+              className="absolute bottom-4 left-6 text-xs font-bold uppercase text-zinc-600 underline underline-offset-2 max-sm:bottom-2 max-sm:left-8"
               onClick={handleCloseEver}
             >
               Não quero mais receber esse pop-up

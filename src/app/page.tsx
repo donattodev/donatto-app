@@ -18,7 +18,7 @@ import { Footer } from '@/elements/footer'
 export default function Home() {
   return (
     <>
-      <header className="px-56 py-56 max-xl:px-28 max-md:px-16 max-sm:px-6 max-sm:pb-28 max-sm:pt-48">
+      <header className="px-56 py-[275px] max-xl:px-28 max-md:px-16 max-sm:px-6 max-sm:pb-28 max-sm:pt-48">
         <h1 className="animate-left font-headline text-6xl font-black">
           Felippe Donatto
         </h1>

@@ -10,7 +10,7 @@ export function Root({ bg, children, ...props }: RootProps) {
   return (
     <nav
       className={twMerge(
-        'absolute left-0 top-0 flex  h-[10vh] w-full items-center justify-between px-56 max-xl:px-28 max-md:px-16 max-sm:px-6',
+        'absolute left-0 top-0 flex  h-24 w-full items-center justify-between px-56 max-xl:px-28 max-md:px-16 max-sm:px-6',
         bg ? 'bg-zinc-900' : 'bg-transparent',
       )}
       {...props}

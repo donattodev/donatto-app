@@ -27,7 +27,7 @@ export function Links(props: LinksProps) {
           <a
             key={item.name}
             href={item.href}
-            className="animate-down flex flex-col"
+            className="animate-down flex flex-col transition-all duration-200 hover:text-zinc-400"
             aria-current={item.current ? 'page' : undefined}
             target={item.target}
           >
@@ -45,7 +45,7 @@ export function Links(props: LinksProps) {
             <a
               key={item.name}
               href={item.href}
-              className="animate-left flex flex-col"
+              className="animate-down flex flex-col transition-all hover:text-zinc-400"
               aria-current={item.current ? 'page' : undefined}
             >
               {item.name}
