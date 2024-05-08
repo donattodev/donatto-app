@@ -1,5 +1,4 @@
 import { ButtonWhatsapp } from '../buttons/button-whatsapp'
-import { ButtonMatricula } from '../buttons/button-matricula'
 
 export function HeaderProgame() {
   return (
@@ -20,7 +19,6 @@ export function HeaderProgame() {
 
         <div className="flex gap-4 max-sm:w-full max-sm:flex-col">
           <ButtonWhatsapp />
-          <ButtonMatricula />
         </div>
       </div>
       <div className="min-h-screen w-full bg-progame bg-right bg-no-repeat max-sm:hidden" />

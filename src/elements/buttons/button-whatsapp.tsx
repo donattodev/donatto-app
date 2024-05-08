@@ -13,7 +13,7 @@ export function ButtonWhatsapp() {
       }}
       asChild
     >
-      <Link href="#" target="_blank">
+      <Link href="https://wa.me/message/EVND3KQTJJOTL1" target="_blank">
         Fale com o professor
       </Link>
     </Button>
