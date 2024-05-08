@@ -8,6 +8,8 @@
     - HTML 
     - HEAD 
     - BODY 
+    - META
+    - TITLE
     - DIV
     - H1
 
@@ -41,17 +43,14 @@
   ## AULA 06 - Imagens, videos e audios
     - IMG 
     - FIGURE
-    - PICTURE
     - VIDEO
     - AUDIO
 
   ## AULA 07 - Tags complementares e primerias codigos com css
    - NAV  
    - ARTICLE
+   - A
    - STYLE
-   - META
-   - TITLE
 
   ## AULA 08 - Estilos globais e arquivos separados
-   - STYLE
    - LINK
