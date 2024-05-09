@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Image from 'next/image'
 import { Footer } from '@/elements/footer'
 import { HeaderProgame } from '@/elements/header/header-progame'
@@ -386,14 +387,16 @@ export default function Progame() {
           </div>
 
           <div className="animate-down flex w-full justify-center gap-4  max-sm:flex-col">
-            <div className="flex w-full flex-col items-center gap-2">
-              <Image
-                src={blog}
-                alt=""
-                className="aspect-video rounded-md border-2  border-zinc-500/40"
-              />
-              <span className="font-bold uppercase">Blog</span>
-            </div>
+            <Link href="https://blog-eta-five-97.vercel.app/" target="_blank">
+              <div className="flex w-full flex-col items-center gap-2">
+                <Image
+                  src={blog}
+                  alt=""
+                  className="aspect-video rounded-md border-2  border-zinc-500/40"
+                />
+                <span className="font-bold uppercase">Blog</span>
+              </div>
+            </Link>
 
             <div className="flex w-full flex-col items-center gap-2">
               <div className="aspect-video w-full animate-pulse rounded-md border-2 border-zinc-500/40 bg-zinc-950" />
@@ -405,14 +408,16 @@ export default function Progame() {
               <span className="font-bold uppercase">Jogo do Dino</span>
             </div>
 
-            <div className="flex w-full flex-col items-center gap-2">
-              <Image
-                src={quiz}
-                alt=""
-                className="aspect-video rounded-md border-2  border-zinc-500/40"
-              />
-              <span className="font-bold uppercase">Quiz</span>
-            </div>
+            <Link href="https://quizzes-ochre.vercel.app/" target="_blank">
+              <div className="flex w-full flex-col items-center gap-2">
+                <Image
+                  src={quiz}
+                  alt="Foto da previa do Projeto Quizzes"
+                  className="aspect-video rounded-md border-2  border-zinc-500/40"
+                />
+                <span className="font-bold uppercase">Quizzes</span>
+              </div>
+            </Link>
           </div>
         </section>
 

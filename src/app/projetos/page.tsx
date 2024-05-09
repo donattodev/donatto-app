@@ -110,7 +110,7 @@ export default function ListaDeProjetos() {
           >
             <Link
               className="flex items-center gap-3 font-bold"
-              href="https://music-relax.vercel.app/"
+              href={projeto.projeto}
               target="_blank"
             >
               {projeto.name}
