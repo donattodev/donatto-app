@@ -8,6 +8,7 @@ import { FormInfoMatriculaProgame } from '@/elements/forms/form-info-matricula-p
 
 import blog from '@/assets/progame/blog-projeto.png'
 import quiz from '@/assets/progame/projeto-quiz.png'
+import docs from '@/assets/progame/projeto-docs.png'
 
 import {
   Accordion,
@@ -24,6 +25,7 @@ import {
   PersonStanding,
   Play,
 } from 'lucide-react'
+import { Button } from '@/components/ui/button'
 
 export default function Progame() {
   return (
@@ -61,7 +63,7 @@ export default function Progame() {
               </div>
               <p className="text-justify text-sm tracking-wider text-zinc-300">
                 Durante o curso, desenvolveremos 4 projetos completos: um blog,
-                uma documentação, um jogo do Dino e um jogo de quiz. Fora os
+                uma documentação, um Spped Run e um jogo de quiz. Fora os
                 desafios e exercicios
               </p>
             </div>
@@ -331,7 +333,7 @@ export default function Progame() {
               </AccordionItem>
               <AccordionItem value="item-6">
                 <AccordionTrigger className="max-sm:justify-center">
-                  Mundo 06 - A batalha final! Jogo do Dino
+                  Mundo 06 - A batalha final! Speed Run
                 </AccordionTrigger>
                 <AccordionContent>
                   <ul className="flex flex-col gap-2 font-semibold uppercase text-zinc-400">
@@ -357,7 +359,7 @@ export default function Progame() {
                     </li>
                     <li>
                       <span className="text-primary">Fase 46</span> - Criando
-                      dino e sistema de pulos
+                      sistema de pulos
                     </li>
                     <li>
                       <span className="text-primary">Fase 47</span> -
@@ -373,7 +375,14 @@ export default function Progame() {
             </Accordion>
           </div>
 
-          <ButtonWhatsapp />
+          <div className="flex gap-4">
+            <ButtonWhatsapp />
+            <Button asChild variant={'outline'}>
+              <Link href="/" target="_blank">
+                Ver todo o conteudo
+              </Link>
+            </Button>
+          </div>
         </section>
 
         <section className="box flex flex-col items-center gap-16 bg-zinc-900 pb-24 pt-16">
@@ -387,6 +396,17 @@ export default function Progame() {
           </div>
 
           <div className="animate-down flex w-full justify-center gap-4  max-sm:flex-col">
+            <Link href="https://docs-progame.vercel.app/" target="_blank">
+              <div className="flex w-full flex-col items-center gap-2">
+                <Image
+                  src={docs}
+                  alt=""
+                  className="aspect-video rounded-md border-2  border-zinc-500/40"
+                />
+                <span className="font-bold uppercase">Docs</span>
+              </div>
+            </Link>
+
             <Link href="https://blog-eta-five-97.vercel.app/" target="_blank">
               <div className="flex w-full flex-col items-center gap-2">
                 <Image
@@ -398,16 +418,6 @@ export default function Progame() {
               </div>
             </Link>
 
-            <div className="flex w-full flex-col items-center gap-2">
-              <div className="aspect-video w-full animate-pulse rounded-md border-2 border-zinc-500/40 bg-zinc-950" />
-              <span className="font-bold uppercase">Documentação</span>
-            </div>
-
-            <div className="flex w-full flex-col items-center gap-2">
-              <div className="aspect-video w-full animate-pulse rounded-md border-2 border-zinc-500/40 bg-zinc-950" />
-              <span className="font-bold uppercase">Jogo do Dino</span>
-            </div>
-
             <Link href="https://quizzes-ochre.vercel.app/" target="_blank">
               <div className="flex w-full flex-col items-center gap-2">
                 <Image
@@ -418,6 +428,11 @@ export default function Progame() {
                 <span className="font-bold uppercase">Quizzes</span>
               </div>
             </Link>
+
+            <div className="flex w-full flex-col items-center gap-2">
+              <div className="aspect-video w-full animate-pulse rounded-md border-2 border-zinc-500/40 bg-zinc-950" />
+              <span className="font-bold uppercase">Speed Run</span>
+            </div>
           </div>
         </section>
 
