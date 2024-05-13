@@ -6,7 +6,7 @@ import { DialogProgame } from '@/elements/dialog/dialog-progame'
 import { ButtonWhatsapp } from '@/elements/buttons/button-whatsapp'
 import { FormInfoMatriculaProgame } from '@/elements/forms/form-info-matricula-progame'
 
-import blog from '@/assets/progame/blog-projeto.png'
+import blog from '@/assets/progame/projeto-blog.png'
 import quiz from '@/assets/progame/projeto-quiz.png'
 import docs from '@/assets/progame/projeto-docs.png'
 
@@ -378,7 +378,10 @@ export default function Progame() {
           <div className="flex gap-4">
             <ButtonWhatsapp />
             <Button asChild variant={'outline'}>
-              <Link href="/" target="_blank">
+              <Link
+                href="https://progame.notion.site/Ementa-Progame-903d1cf25d2a4259a402329d74fc90d5?pvs=25"
+                target="_blank"
+              >
                 Ver todo o conteudo
               </Link>
             </Button>
@@ -418,7 +421,7 @@ export default function Progame() {
               </div>
             </Link>
 
-            <Link href="https://quizzes-ochre.vercel.app/" target="_blank">
+            <Link href="https://quizzes-progame.vercel.app/" target="_blank">
               <div className="flex w-full flex-col items-center gap-2">
                 <Image
                   src={quiz}
